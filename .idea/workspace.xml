@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/ltr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap-colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap-touchspin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap-touchspin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/jquery-jvectormap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/lobilist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/simplemde.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/simplemde.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/summernote.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/weather-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/plugins/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/weathericons-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bg/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/bg/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/blog/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/AVI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/BMP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/CAD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/DLL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/EPS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/PDF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/PNG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/PS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/PSD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/SQL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/TXT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/file-icon/ZIP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/AU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/BE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/BF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/BO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/CZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/DE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/DJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/DK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/DZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/EE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/EG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/ES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/FI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/FR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/GA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/GB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/GM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/GT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/HN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/HT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/HU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/ID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/IE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/IL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/IN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/IQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/IR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/IT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/JM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/JO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/JP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/KG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/KN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/KP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/KR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/KW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/KZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/LA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/LB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/LC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/LS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/LU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/LV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/MG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/MK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/ML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/MM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/MT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/MX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/NA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/NE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/NG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/NI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/NL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/NO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/OM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/PY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/QA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/RO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/RU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/RW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/SV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/TD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/TJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/TL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/TR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/TZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/UA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/VE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/VN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/flags/YE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/item/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/item/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/item/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/item/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/item/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/login-inner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-icon-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-icon-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/pre-loader/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/pre-loader/loader-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/profile-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/register-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/register-inner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/team/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/user-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-datatables/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-datatables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/calendar.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/counter/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/easy-pie-chart/easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-nice-select/jquery-nice-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-asia-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-au-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-in-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-north_america-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-us-lcc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/lobilist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/morris.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/nicescroll/jquery.nicescroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/plugins-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/sparkline.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/sweetalert2.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_list-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_nice-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_owl-carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_social-icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/components/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/bootstrap-colorpicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/bootstrap-datepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/bootstrap-touchspin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/dataTables.bootstrap4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/jquery-jvectormap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/jquery.steps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/lobilist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/semantic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/simplemde.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/summernote.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/themify-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/toastr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/plugins/weather-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/empty.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/main-header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Nuxt" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1qioO9dUOMbslZVWVfDIsLHvO2T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Laravel/.env" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Nuxt/plugins" />
+      <recent name="$PROJECT_DIR$/Nuxt/plugins/layouts" />
+      <recent name="$PROJECT_DIR$/Nuxt/components/default-layouts" />
+      <recent name="$PROJECT_DIR$/Nuxt/components" />
+      <recent name="$PROJECT_DIR$/Laravel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="" />
+      <created>1617571737320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617571737320</updated>
+      <workItem from="1617571741564" duration="649000" />
+      <workItem from="1617573159157" duration="19339000" />
+      <workItem from="1617897932060" duration="878000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
