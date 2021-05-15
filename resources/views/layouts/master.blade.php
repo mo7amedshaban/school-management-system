@@ -13,32 +13,43 @@
 
 <body>
 
-    <div class="wrapper">
+<div class="wrapper" style="font-family: 'Cairo', sans-serif">
 
-        <!--=================================
- preloader -->
+    <!--=================================
+preloader -->
 
-        <div id="pre-loader">
-            <img src="assets/images/pre-loader/loader-01.svg" alt="">
-        </div>
+    <div id="pre-loader">
+        <img src="{{ URL::asset('assets/images/pre-loader/loader-01.svg') }}" alt="">
+    </div>
 
-        <!--=================================
- preloader -->
+    <!--=================================
+preloader -->
 
-        @include('layouts.main-header')
+@include('layouts.main-header')
+@include('layouts.main-sidebar')
 
-        @include('layouts.main-sidebar')
-
-        <!--=================================
+<!--=================================
  Main content -->
-        <!-- main-content -->
-        <div class="content-wrapper">
+    <!-- main-content -->
+    <div class="content-wrapper">
 
-            @yield('page-header')
+        @yield('page-header')
+        <div class="page-title">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="mb-0" style="font-family: 'Cairo', sans-serif">@yield('PageTitle')</h4>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right ">
+                        <li class="breadcrumb-item"><a href="{{ url('/dashboard') }}" class="default-color">{{trans('main_trans.Dashboard')}}</a></li>
+                        <li class="breadcrumb-item active">@yield('PageTitle')</li>
+                    </ol>
+                </div>
+            </div>
 
-            @yield('content')
+        @yield('content')
 
-            <!--=================================
+        <!--=================================
  wrapper -->
 
             <!--=================================
@@ -47,13 +58,13 @@
             @include('layouts.footer')
         </div><!-- main content wrapper end-->
     </div>
-    </div>
-    </div>
+</div>
+</div>
 
-    <!--=================================
- footer -->
+<!--=================================
+footer -->
 
-    @include('layouts.footer-scripts')
+@include('layouts.footer-scripts')
 
 </body>
 

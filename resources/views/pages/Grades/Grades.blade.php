@@ -22,6 +22,7 @@
         @endif
 
 
+
         <div class="col-xl-12 mb-30">
             <div class="card card-statistics h-100">
                 <div class="card-body">
@@ -42,8 +43,7 @@
                     <br><br>
 
                     <div class="table-responsive">
-                        <table id="datatable" class="table  table-hover table-sm table-bordered p-0"
-                               data-page-length="50"
+                        <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
                                style="text-align: center">
                             <thead>
                             <tr>
@@ -64,8 +64,7 @@
                                     <td>
                                         <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
                                                 data-target="#edit{{ $Grade->id }}"
-                                                title="{{ trans('Grades_trans.Edit') }}"><i class="fa fa-edit"></i>
-                                        </button>
+                                                title="{{ trans('Grades_trans.Edit') }}"><i class="fa fa-edit"></i></button>
                                         <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
                                                 data-target="#delete{{ $Grade->id }}"
                                                 title="{{ trans('Grades_trans.Delete') }}"><i
