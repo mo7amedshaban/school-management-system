@@ -5,25 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Classrooms/ClassroomController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreClassroom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Classroom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_230631_create_classrooms_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/My_Classes_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/My_Classes_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/My_Classes/My_Classes.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Sections/SectionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreSections.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Sections/Sections.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Classrooms/ClassroomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Classrooms/ClassroomController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Grades/GradeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Grades/GradeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Grade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Grade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/main_trans.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/Grades/Grades.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Grades/Grades.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +172,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Laravel/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,7 +180,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
@@ -218,7 +215,10 @@
       <workItem from="1617573159157" duration="19339000" />
       <workItem from="1617897932060" duration="16814000" />
       <workItem from="1619877810437" duration="547000" />
-      <workItem from="1619915801435" duration="5637000" />
+      <workItem from="1619915801435" duration="6109000" />
+      <workItem from="1621285390785" duration="493000" />
+      <workItem from="1621358822020" duration="18000" />
+      <workItem from="1621358855352" duration="6727000" />
     </task>
     <servers />
   </component>
@@ -239,5 +239,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

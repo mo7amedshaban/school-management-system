@@ -43,6 +43,16 @@ class ClassroomController extends Controller
      */
     public function store(StoreClassroom $request)
     {
+        /*
+          <div class="repeater">
+                <div data-repeater-list="List_Classes">
+                    <div data-repeater-item>
+                        <div class="row">
+        */
+
+        #List_Classes return array of string
+
+
 
         $List_Classes = $request->List_Classes;
 
@@ -116,9 +126,7 @@ class ClassroomController extends Controller
             ]);
             toastr()->success(trans('messages.Update'));
             return redirect()->route('Classrooms.index');
-        }
-
-        catch
+        } catch
         (\Exception $e) {
             return redirect()->back()->withErrors(['error' => $e->getMessage()]);
         }
@@ -155,8 +163,8 @@ class ClassroomController extends Controller
     public function Filter_Classes(Request $request)
     {
         $Grades = Grade::all();
-        $Search = Classroom::select('*')->where('Grade_id','=',$request->Grade_id)->get();
-        return view('pages.My_Classes.My_Classes',compact('Grades'))->withDetails($Search);
+        $Search = Classroom::select('*')->where('Grade_id', '=', $request->Grade_id)->get();
+        return view('pages.My_Classes.My_Classes', compact('Grades'))->withDetails($Search);
 
     }
 

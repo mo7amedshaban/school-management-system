@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Grades;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreGrades;
+use App\Models\Classroom;
 use App\Models\Grade;
 use Illuminate\Http\Request;
 
@@ -78,19 +79,21 @@ class GradeController extends Controller
     }
 
 
+    /*
+     * when use delete grade and exist relationship between grade and classroom
+     *  not delete it but alert for you
+    */
     public function destroy(Request $request)
         # pulck --> make array for sort many ids
     {
-        $MyClass_id = Classroom::where('Grade_id',$request->id)->pluck('Grade_id');
+        $MyClass_id = Classroom::where('Grade_id', $request->id)->pluck('Grade_id');
 
-        if($MyClass_id->count() == 0){
+        if ($MyClass_id->count() == 0) {
 
             $Grades = Grade::findOrFail($request->id)->delete();
             toastr()->error(trans('messages.Delete'));
             return redirect()->route('Grades.index');
-        }
-
-        else{
+        } else {
 
             toastr()->error(trans('Grades_trans.delete_Grade_Error'));
             return redirect()->route('Grades.index');
