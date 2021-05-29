@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Sections/SectionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreSections.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Sections/Sections.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Nationalitie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Religion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Type_blood.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_224035_create_type_bloods_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_232726_create_religions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_232917_create_nationalities_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/BloodTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/NationalitiesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/religionTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Classrooms/ClassroomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Classrooms/ClassroomController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Grades/GradeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Grades/GradeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Grade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Grade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/main_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +212,7 @@
       <workItem from="1619915801435" duration="6109000" />
       <workItem from="1621285390785" duration="493000" />
       <workItem from="1621358822020" duration="18000" />
-      <workItem from="1621358855352" duration="6727000" />
+      <workItem from="1621358855352" duration="8041000" />
     </task>
     <servers />
   </component>
