@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/AddParent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/My_Parent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_06_22_231358_create_my__parents_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/wizard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Parent_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/Parent_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/Father_Form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/Mother_Form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/add-parent.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/show_Form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test_pg.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/school-management-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school-management-system.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_15_230631_create_classrooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_15_230631_create_classrooms_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_07_15_231140_create_foreign_keys.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_1_210944_create_sections_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/main_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/AddParent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/AddParent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/My_Parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/My_Parent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/add-parent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/add-parent.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +211,7 @@
       <workItem from="1623636821839" duration="1373000" />
       <workItem from="1625795435414" duration="42000" />
       <workItem from="1625921755758" duration="3996000" />
-      <workItem from="1627230975751" duration="3537000" />
+      <workItem from="1627230975751" duration="4187000" />
     </task>
     <servers />
   </component>
