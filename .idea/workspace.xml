@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/ParentAttachment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_14_220213_create_parent_attachments_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/AddParent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/AddParent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/My_Parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/My_Parent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_15_231140_create_foreign_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_07_15_231140_create_foreign_keys.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/add-parent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/add-parent.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +213,7 @@
       <workItem from="1623636821839" duration="1373000" />
       <workItem from="1625795435414" duration="42000" />
       <workItem from="1625921755758" duration="3996000" />
-      <workItem from="1627230975751" duration="4187000" />
+      <workItem from="1627230975751" duration="5467000" />
     </task>
     <servers />
   </component>
