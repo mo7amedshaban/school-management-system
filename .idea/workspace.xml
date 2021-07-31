@@ -5,33 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Teachers/TeacherController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreTeachers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Gender.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Specialization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Teacher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/TeacherRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/TeacherRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/.2021_05_15_230631_create_classrooms_table.php.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/.2021_05_15_231140_create_foreign_keys.php.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/.2021_05_29_210944_create_sections_table.php.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_27_023152_create_genders_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_27_023245_create_specializations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_27_023339_create_teachers_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/GenderTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/SpecializationsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Teacher_trans.php " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/Teacher_trans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/Edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/Teachers.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_230631_create_classrooms_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_31_024133_create_teacher_section_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_1_210944_create_sections_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_1_210944_create_sections_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Sections/SectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Sections/SectionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Teacher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/.2021_05_15_230631_create_classrooms_table.php.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/.2021_05_15_231140_create_foreign_keys.php.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/.2021_05_29_210944_create_sections_table.php.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Sections/Sections.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Sections/Sections.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +221,7 @@
       <workItem from="1623636821839" duration="1373000" />
       <workItem from="1625795435414" duration="42000" />
       <workItem from="1625921755758" duration="3996000" />
-      <workItem from="1627230975751" duration="11787000" />
+      <workItem from="1627230975751" duration="15874000" />
     </task>
     <servers />
   </component>
