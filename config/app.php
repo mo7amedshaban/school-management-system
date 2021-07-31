@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Yoeunes\Toastr\ToastrServiceProvider::class,
+        App\Providers\RepoServiceProvider::class,
 
     ],
 
