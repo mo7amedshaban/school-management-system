@@ -5,21 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_230631_create_classrooms_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_31_024133_create_teacher_section_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/PromotionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreStudentsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/StudentPromotionRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/StudentPromotionRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/attachments/students/adssad/laravel&amp;vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/attachments/students/oioogi/laravel&amp;vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/attachments/students/rerer/django.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Students_trans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/Students_trans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/Delete_img.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/promotion/Delete_all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/promotion/Delete_one.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/promotion/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/promotion/management.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Sections/SectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Sections/SectionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Teacher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/.2021_05_15_230631_create_classrooms_table.php.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/.2021_05_15_231140_create_foreign_keys.php.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/.2021_05_29_210944_create_sections_table.php.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/Sections/Sections.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Sections/Sections.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/TeacherRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/TeacherRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_15_230631_create_classrooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_01_233938_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_15_231140_create_foreign_keys.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_1_210944_create_sections_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_29_210944_create_sections_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_15_231140_create_foreign_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_07_26_231140_create_foreign_keys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/main_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,11 +212,11 @@
       <recent name="$PROJECT_DIR$/resources/views/pages/Grades" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/pages/Students/promotion" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Teachers" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Grades" />
       <recent name="$PROJECT_DIR$/Nuxt/plugins" />
       <recent name="$PROJECT_DIR$/Nuxt/plugins/layouts" />
-      <recent name="$PROJECT_DIR$/Nuxt/components/default-layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -221,7 +244,9 @@
       <workItem from="1623636821839" duration="1373000" />
       <workItem from="1625795435414" duration="42000" />
       <workItem from="1625921755758" duration="3996000" />
-      <workItem from="1627230975751" duration="15874000" />
+      <workItem from="1627230975751" duration="17516000" />
+      <workItem from="1627814425988" duration="6258000" />
+      <workItem from="1627875462556" duration="17780000" />
     </task>
     <servers />
   </component>

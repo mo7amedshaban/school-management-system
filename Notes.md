@@ -92,3 +92,8 @@ public function update(StoreSections $request)
 
 
 ```
+### Design Patterns
+* create folder app/Repository
+* create 2 files      TeacherRepositoryInterface.php , RepositoryInterface.php
+* create Provider and register 2 files in it    pa make:provider name
+* open config/app  and register provider here

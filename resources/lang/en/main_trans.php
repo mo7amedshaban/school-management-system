@@ -4,8 +4,8 @@ return [
 
     'Dashboard'=>'Dashboard',
     'Dashboard_page'=>'Dashboard',
-    'Main_title' => 'School Management Program',
-    'Programname' => 'School Management Program',
+    'Main_title' => 'MoraSoft School Management Program',
+    'Programname' => 'MoraSoft School Management Program',
     'change_language'=>'language',
     'Grades'=>'Grades',
     'Grades_list'=>'Grades List',
@@ -15,7 +15,12 @@ return [
     'List_sections'=>'List Sections',
     'students'=>'Students',
     'add_student'=>'Add student',
+    'list_students'=>'list Students',
+    'Students_Promotions'=>'Students Promotions',
     'information_student'=>'Information Students',
+    'Student_information'=>'Student Information',
+    'add_Promotion'=>'Add New Promotion',
+    'list_Promotions'=>'List Promotion',
     'Students_upgrade'=>'Students Upgrade',
     'Graduate_students'=>'Graduate Students',
     'Teachers'=>'Teachers',
@@ -31,11 +36,7 @@ return [
     'Settings'=>'Settings',
     'Users'=>'Users',
     'Copyright' => 'Copyright',
-    'Name_Programer' => 'SamirGamal MoraSoft All Rights Reserved',
-    'Copyright' => 'Copyright ',
-    'Name_Programer' => 'SamirGamal MoraSoft All Rights Reserved ',
-
-
+    'Name_Programer' => 'SamirGamal MoraSoft All Rights Reserved'
 
 
 ];

@@ -1,31 +1,37 @@
 <?php
 
 namespace App\Repository;
+
 use App\Models\Gender;
 use App\Models\Specialization;
 use App\Models\Teacher;
 use Illuminate\Support\Facades\Hash;
 
-class TeacherRepository implements TeacherRepositoryInterface{
+class TeacherRepository implements TeacherRepositoryInterface
+{
 
-    public function getAllTeachers(){
+    public function getAllTeachers()
+    {
         return Teacher::all();
     }
 
-    public function Getspecialization(){
+    public function Getspecialization()
+    {
         return specialization::all();
     }
 
-    public function GetGender(){
+    public function GetGender()
+    {
         return Gender::all();
     }
 
-    public function StoreTeachers($request){
+    public function StoreTeachers($request)
+    {
 
         try {
             $Teachers = new Teacher();
             $Teachers->Email = $request->Email;
-            $Teachers->Password =  Hash::make($request->Password);
+            $Teachers->Password = Hash::make($request->Password);
             $Teachers->Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
             $Teachers->Specialization_id = $request->Specialization_id;
             $Teachers->Gender_id = $request->Gender_id;
@@ -34,8 +40,7 @@ class TeacherRepository implements TeacherRepositoryInterface{
             $Teachers->save();
             toastr()->success(trans('messages.success'));
             return redirect()->route('Teachers.create');
-        }
-        catch (Exception $e) {
+        } catch (Exception $e) {
             return redirect()->back()->with(['error' => $e->getMessage()]);
         }
 
@@ -53,7 +58,7 @@ class TeacherRepository implements TeacherRepositoryInterface{
         try {
             $Teachers = Teacher::findOrFail($request->id);
             $Teachers->Email = $request->Email;
-            $Teachers->Password =  Hash::make($request->Password);
+            $Teachers->Password = Hash::make($request->Password);
             $Teachers->Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
             $Teachers->Specialization_id = $request->Specialization_id;
             $Teachers->Gender_id = $request->Gender_id;
@@ -62,8 +67,7 @@ class TeacherRepository implements TeacherRepositoryInterface{
             $Teachers->save();
             toastr()->success(trans('messages.Update'));
             return redirect()->route('Teachers.index');
-        }
-        catch (Exception $e) {
+        } catch (Exception $e) {
             return redirect()->back()->with(['error' => $e->getMessage()]);
         }
     }
@@ -75,7 +79,6 @@ class TeacherRepository implements TeacherRepositoryInterface{
         toastr()->error(trans('messages.Delete'));
         return redirect()->route('Teachers.index');
     }
-
 
 
 }
