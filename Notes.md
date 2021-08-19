@@ -97,3 +97,12 @@ public function update(StoreSections $request)
 * create 2 files      TeacherRepositoryInterface.php , RepositoryInterface.php
 * create Provider and register 2 files in it    pa make:provider name
 * open config/app  and register provider here
+
+
+### soft Delete
+* $table->softDeletes();   // in migration table
+* use SoftDeletes;         // in model
+* student::all()  == student::onlyTrashed()->get();
+* when column in db  deleted_at is null  this meaning no anything have soft delete and when have timezone meaning softdelete done 
+  * can use two   restore();   forceDelete();
+    * look in StudentGraduatedRepository.php

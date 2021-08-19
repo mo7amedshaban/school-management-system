@@ -4,8 +4,8 @@ return [
 
     'Dashboard'=>'Dashboard',
     'Dashboard_page'=>'Dashboard',
-    'Main_title' => 'MoraSoft School Management Program',
-    'Programname' => 'MoraSoft School Management Program',
+    'Main_title' => 'School Management System',
+    'Programname' => 'School Management System',
     'change_language'=>'language',
     'Grades'=>'Grades',
     'Grades_list'=>'Grades List',
@@ -36,7 +36,7 @@ return [
     'Settings'=>'Settings',
     'Users'=>'Users',
     'Copyright' => 'Copyright',
-    'Name_Programer' => 'SamirGamal MoraSoft All Rights Reserved'
+    'Name_Programer' => 'Mohamed Shaban All Rights Reserved'
 
 
 ];

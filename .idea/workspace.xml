@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/GraduatedController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/StudentGraduatedRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/StudentGraduatedRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/Delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/return.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_01_233938_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_01_233938_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/main_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/main_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/main_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +224,7 @@
       <workItem from="1625921755758" duration="3996000" />
       <workItem from="1627230975751" duration="17516000" />
       <workItem from="1627814425988" duration="6258000" />
-      <workItem from="1627875462556" duration="18231000" />
+      <workItem from="1627875462556" duration="22354000" />
     </task>
     <servers />
   </component>
