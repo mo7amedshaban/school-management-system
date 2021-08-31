@@ -106,3 +106,16 @@ public function update(StoreSections $request)
 * when column in db  deleted_at is null  this meaning no anything have soft delete and when have timezone meaning softdelete done 
   * can use two   restore();   forceDelete();
     * look in StudentGraduatedRepository.php
+
+
+### Froginkey
+   ```
+    # instead of
+    
+        $table->unsignedBigInteger('teacher_id');
+        $table->foreign('teacher_id')->references('id')->on('teachers')->onDelete('cascade');
+    
+    # use foreignId
+                $table->foreignId('Classroom_id')->references('id')->on('Classrooms')->onDelete('cascade');
+
+   ```
