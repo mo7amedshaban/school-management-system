@@ -5,34 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/FeesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/FeesInvoicesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreFeesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Fee_invoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/StudentAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/FeeInvoicesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/FeeInvoicesRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/FeesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/FeesRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105903_create_fee_invoices_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ClassroomTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ParentsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/SectionsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees/Delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/Delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/ReceiptStudentsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/ReceiptStudentsRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/Delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_13_212217_create_grades_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_13_212217_create_grades_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Students/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -239,7 +220,7 @@
       <workItem from="1625921755758" duration="3996000" />
       <workItem from="1627230975751" duration="17516000" />
       <workItem from="1627814425988" duration="6258000" />
-      <workItem from="1627875462556" duration="29530000" />
+      <workItem from="1627875462556" duration="30467000" />
     </task>
     <servers />
   </component>

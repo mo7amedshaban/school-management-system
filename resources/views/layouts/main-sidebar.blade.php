@@ -125,7 +125,8 @@
                         </a>
                         <ul id="Accounts-menu" class="collapse" data-parent="#sidebarnav">
                             <li> <a href="{{route('Fees.index')}}">الرسوم الدراسية </a> </li>
-                            <li> <a href="{{route('Fees_Invoices.index')}}">الفواتير</a> </li>                        </ul>
+                            <li> <a href="{{route('Fees_Invoices.index')}}">الفواتير</a> </li>
+                            <li> <a href="{{route('receipt_students.index')}}">سندات القبض</a> </li></ul>
                     </li>
 
                     <!-- Attendance-->
