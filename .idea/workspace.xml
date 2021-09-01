@@ -5,21 +5,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/ProcessingFeeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ProcessingFee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/ProcessingFeeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/ProcessingFeeRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105944_create_processing_fees_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/Delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/PaymentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/PaymentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/PaymentRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Payment/Delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Payment/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Payment/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Payment/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReceiptStudentsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Students/FeesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Students/FeesInvoicesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Students/GraduatedController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Students/ProcessingFeeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Students/PromotionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Students/StudentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Teachers/TeacherController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/AddParent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreFeesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreStudentsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreTeachers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Fee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Fee_invoice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/FundAccount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Gender.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ParentAttachment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ProcessingFee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ReceiptStudent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Specialization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/StudentAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PaymentStudent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Teacher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/promotion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/FeeInvoicesRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/FeeInvoicesRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/FeesRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/FeesRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/ProcessingFeeRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/ProcessingFeeRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/ReceiptStudentsRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/ReceiptStudentsRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/StudentGraduatedRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/StudentGraduatedRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/StudentPromotionRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/StudentPromotionRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/TeacherRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/TeacherRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_14_220213_create_parent_attachments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_26_231140_create_foreign_keys.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_27_023152_create_genders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_27_023245_create_specializations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_27_023339_create_teachers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_31_024133_create_teacher_section_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_01_233938_create_students_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_05_033521_create_images_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_13_022610_create_promotions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_090640_create_fees_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105903_create_fee_invoices_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105943_create_receipt_students_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105944_create_processing_fees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_payment_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_31_224425_create_fund_accounts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ClassroomTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GenderTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GradeSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ParentsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SectionsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SpecializationsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/StudentsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/adssad/laravel&amp;vue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/erqer/adm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/erqer/flutter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/oioogi/laravel&amp;vue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/rerer/django.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/غلغلتالتا/django.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/attachments/students/غلغلتالتا/ecommerce-solutions.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/wizard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Parent_trans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Students_trans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Teacher_trans.php " beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Parent_trans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Students_trans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Teacher_trans.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Students/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/Father_Form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/Mother_Form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/Parent_Table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/add-parent.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/show_Form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees/Delete.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/Delete.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Fees_Invoices/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/Delete.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Receipt/Delete.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Receipt/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Receipt/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Receipt/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/Delete_img.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/Delete.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/Graduated/return.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/delete.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/promotion/Delete_all.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/promotion/Delete_one.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/promotion/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/promotion/management.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Students/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Teachers/Edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Teachers/Teachers.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Teachers/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test_pg.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +337,7 @@
       <workItem from="1627814425988" duration="6258000" />
       <workItem from="1627875462556" duration="30834000" />
       <workItem from="1630452670852" duration="354000" />
-      <workItem from="1630509101235" duration="1798000" />
+      <workItem from="1630509101235" duration="3099000" />
     </task>
     <servers />
   </component>
