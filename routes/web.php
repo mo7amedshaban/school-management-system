@@ -75,7 +75,7 @@ Route::group(
         Route::resource('Fees', 'FeesController');
         Route::resource('Fees_Invoices', 'FeesInvoicesController');
         Route::resource('receipt_students', 'ReceiptStudentsController');
-
+        Route::resource('ProcessingFee', 'ProcessingFeeController');
 
 
     });

@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Repository/ReceiptStudentsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/ReceiptStudentsRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/Delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Receipt/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/ProcessingFeeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/ProcessingFee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/ProcessingFeeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/ProcessingFeeRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105944_create_processing_fees_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/Delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/ProcessingFee/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105945_create_student_accounts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
@@ -186,11 +190,11 @@
       <recent name="$PROJECT_DIR$/resources/views/pages/Grades" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/resources/views/pages/Students/promotion" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Teachers" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Grades" />
       <recent name="$PROJECT_DIR$/Nuxt/plugins" />
-      <recent name="$PROJECT_DIR$/Nuxt/plugins/layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -220,7 +224,9 @@
       <workItem from="1625921755758" duration="3996000" />
       <workItem from="1627230975751" duration="17516000" />
       <workItem from="1627814425988" duration="6258000" />
-      <workItem from="1627875462556" duration="30467000" />
+      <workItem from="1627875462556" duration="30834000" />
+      <workItem from="1630452670852" duration="354000" />
+      <workItem from="1630509101235" duration="1798000" />
     </task>
     <servers />
   </component>
