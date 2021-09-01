@@ -77,6 +77,7 @@ Route::group(
         Route::resource('receipt_students', 'ReceiptStudentsController');
         Route::resource('ProcessingFee', 'ProcessingFeeController');
         Route::resource('Payment_students', 'PaymentController');
+        Route::resource('Attendance', 'AttendanceController');
 
     });
 
