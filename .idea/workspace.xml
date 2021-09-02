@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Students/AttendanceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Attendance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/AttendanceRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/AttendanceRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_01_221243_create_attendances_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Attendance/Sections.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Attendance/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Subjects/SubjectController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Subject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/SubjectRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/SubjectRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_204634_create_subjects_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Subjects/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Subjects/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Subjects/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -222,7 +222,7 @@
       <workItem from="1627814425988" duration="6258000" />
       <workItem from="1627875462556" duration="30834000" />
       <workItem from="1630452670852" duration="354000" />
-      <workItem from="1630509101235" duration="4487000" />
+      <workItem from="1630509101235" duration="5119000" />
     </task>
     <servers />
   </component>
