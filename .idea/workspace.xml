@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Quizzes/QuizzController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Quizze.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/QuizzRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repository/QuizzRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_214238_create_quizzes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Quizzes/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Quizzes/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Quizzes/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/questions/QuestionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/QuestionRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/QuestionRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_221656_create_questions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Questions/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Questions/destroy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Questions/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Questions/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepoServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
@@ -222,7 +223,7 @@
       <workItem from="1627814425988" duration="6258000" />
       <workItem from="1627875462556" duration="30834000" />
       <workItem from="1630452670852" duration="354000" />
-      <workItem from="1630509101235" duration="7260000" />
+      <workItem from="1630509101235" duration="7932000" />
     </task>
     <servers />
   </component>

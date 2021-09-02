@@ -92,6 +92,11 @@ Route::group(
         Route::resource('Quizzes', 'QuizzController');
     });
 
+    //==============================questions============================
+    Route::group(['namespace' => 'questions'], function () {
+        Route::resource('questions', 'QuestionController');
+    });
+
 
 
 
