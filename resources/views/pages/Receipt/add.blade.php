@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    سند قبض
+    {{trans('Account.catch_receipt')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    سند قبض {{$student->name}}
+    {{trans('Account.catch_receipt')}} => {{$student->name}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -34,7 +34,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>المبلغ : <span class="text-danger">*</span></label>
+                                    <label>{{trans('Account.money')}} : <span class="text-danger">*</span></label>
                                     <input  class="form-control" name="Debit" type="number" >
                                     <input  type="hidden" name="student_id"  value="{{$student->id}}" class="form-control">
                                 </div>
@@ -44,7 +44,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>البيان : <span class="text-danger">*</span></label>
+                                    <label>{{trans('Account.Statement')}} : <span class="text-danger">*</span></label>
                                     <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>

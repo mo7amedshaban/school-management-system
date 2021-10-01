@@ -35,7 +35,16 @@ return [
     'NewGrade'=>'New Grade',
     'OldGrade'=>'Old Grade',
     'sure'=>'Sure',
-    'No_info'=>'No exist informations in table student'
+    'No_info'=>'No exist informations in table student',
+    'Process'=>'Processes',
+    'view_student_data'=>'View student data',
+    'edit_student_data'=>'Edit student data',
+    'Add_fee_invoice' =>'Add a fee invoice',
+    'catch_receipt'=>'Catch Receipt',
+    'processing_fee'=>'Processing Fee',
+    'payment'=>'Payment student',
+    'delete_student_data'=>'Delete student data',
+
 
 
 

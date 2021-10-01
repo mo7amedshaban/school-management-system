@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    قائمة الاسئلة
+    {{trans('Account.question_list')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    قائمة الاسئلة
+    {{trans('Account.question_list')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -22,7 +22,8 @@
                         <div class="card card-statistics h-100">
                             <div class="card-body">
                                 <a href="{{route('questions.create')}}" class="btn btn-success btn-sm" role="button"
-                                   aria-pressed="true">اضافة سؤال جديد</a><br><br>
+                                   aria-pressed="true">{{trans('Account.add_new_question')}}
+                                </a><br><br>
                                 <div class="table-responsive">
                                     <table id="datatable" class="table  table-hover table-sm table-bordered p-0"
                                            data-page-length="50"
@@ -30,12 +31,13 @@
                                         <thead>
                                         <tr>
                                             <th scope="col">#</th>
-                                            <th scope="col">السؤال</th>
-                                            <th scope="col">الاجابات</th>
-                                            <th scope="col">الاجابة الصحيحة</th>
-                                            <th scope="col">الدرجة</th>
-                                            <th scope="col">اسم الاختبار</th>
-                                            <th scope="col">العمليات</th>
+                                            <th scope="col">{{trans('Account.question')}}</th>
+                                            <th scope="col">{{trans('Account.answers')}}</th>
+                                            <th scope="col">{{trans('Account.correct_answer')}}</th>
+                                            <th scope="col">{{trans('Account.grade')}}</th>
+                                            <th scope="col">{{trans('Account.quizze_name')}}</th>
+                                            <th scope="col">{{trans('Account.processes')}}</th>
+
                                         </tr>
                                         </thead>
                                         <tbody>

@@ -5,6 +5,7 @@ namespace App\Repository;
 
 
 use App\Models\Fee;
+use App\Models\Fee_invoice;
 use App\Models\Grade;
 
 class FeesRepository implements FeesRepositoryInterface
@@ -27,8 +28,9 @@ class FeesRepository implements FeesRepositoryInterface
     public function edit($id){
 
         $fee = Fee::findorfail($id);
+        $fees = Fee_invoice::all();
         $Grades = Grade::all();
-        return view('pages.Fees.edit',compact('fee','Grades'));
+        return view('pages.Fees.edit',compact('fee','fees','Grades'));
 
     }
 
@@ -44,10 +46,10 @@ class FeesRepository implements FeesRepositoryInterface
             $fees->Classroom_id  =$request->Classroom_id;
             $fees->description  =$request->description;
             $fees->year  =$request->year;
-            $fees->Fee_type  =$request->Fee_type;
+//            $fees->Fee_type  =$request->Fee_type;
             $fees->save();
             toastr()->success(trans('messages.success'));
-            return redirect()->route('Fees.create');
+            return redirect()->route('Fees.index');
 
         }
 

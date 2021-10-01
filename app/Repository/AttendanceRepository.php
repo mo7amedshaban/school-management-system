@@ -51,7 +51,8 @@ class AttendanceRepository implements AttendanceRepositoryInterface
             }
 
             toastr()->success(trans('messages.success'));
-            return redirect()->back();
+//            return redirect()->back();
+            return redirect()->route('Attendance.index');
 
         }
 

@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    تعديل رسوم دراسية
+    {{trans('Account.edit_fee')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    تعديل رسوم دراسية
+    {{trans('Account.edit_fee')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -34,19 +34,23 @@
                         @csrf
                         <div class="form-row">
                             <div class="form-group col">
-                                <label for="inputEmail4">الاسم باللغة العربية</label>
-                                <input type="text" value="{{$fee->getTranslation('title','ar')}}" name="title_ar" class="form-control">
+                                <label for="inputEmail4">    {{trans('Account.name_arabic')}}
+                                </label>
+                                <input type="text" value="{{$fee->getTranslation('title','ar')}}" name="title_ar"
+                                       class="form-control">
                                 <input type="hidden" value="{{$fee->id}}" name="id" class="form-control">
                             </div>
 
                             <div class="form-group col">
-                                <label for="inputEmail4">الاسم باللغة الانجليزية</label>
-                                <input type="text" value="{{$fee->getTranslation('title','en')}}" name="title_en" class="form-control">
+                                <label for="inputEmail4">    {{trans('Account.name_en')}}
+                                </label>
+                                <input type="text" value="{{$fee->getTranslation('title','en')}}" name="title_en"
+                                       class="form-control">
                             </div>
 
 
                             <div class="form-group col">
-                                <label for="inputEmail4">المبلغ</label>
+                                <label for="inputEmail4">{{trans('Account.money')}}</label>
                                 <input type="number" value="{{$fee->amount}}" name="amount" class="form-control">
                             </div>
 
@@ -56,41 +60,52 @@
                         <div class="form-row">
 
                             <div class="form-group col">
-                                <label for="inputState">المرحلة الدراسية</label>
+                                <label for="inputState">{{trans('Account.Educational_level')}}</label>
                                 <select class="custom-select mr-sm-2" name="Grade_id">
                                     @foreach($Grades as $Grade)
-                                        <option value="{{ $Grade->id }}" {{$Grade->id == $fee->Grade_id ? 'selected' : ""}}>{{ $Grade->Name }}</option>
+                                        <option
+                                            value="{{ $Grade->id }}" {{$Grade->id == $fee->Grade_id ? 'selected' : ""}}>{{ $Grade->Name }}</option>
                                     @endforeach
                                 </select>
                             </div>
 
                             <div class="form-group col">
-                                <label for="inputZip">الصف الدراسي</label>
+                                <label for="inputZip">{{trans('Account.classroom')}}</label>
                                 <select class="custom-select mr-sm-2" name="Classroom_id">
                                     <option value="{{$fee->Classroom_id}}">{{$fee->classroom->Name_Class}}</option>
                                 </select>
                             </div>
                             <div class="form-group col">
-                                <label for="inputZip">السنة الدراسية</label>
+                                <label for="inputZip">{{trans('Account.academic_year')}}</label>
                                 <select class="custom-select mr-sm-2" name="year">
                                     @php
                                         $current_year = date("Y")
                                     @endphp
                                     @for($year=$current_year; $year<=$current_year +1 ;$year++)
-                                        <option value="{{ $year}}" {{$year == $fee->year ? 'selected' : ' '}}>{{ $year }}</option>
+                                        <option
+                                            value="{{ $year}}" {{$year == $fee->year ? 'selected' : ' '}}>{{ $year }}</option>
                                     @endfor
+                                </select>
+                            </div>
+                            <div class="form-group col">
+                                <label for="inputZip">{{trans('Account.fee_type')}}</label>
+                                <select class="custom-select mr-sm-2" name="Fee_type">
+                                    @foreach ($fees as $item)
+                                        <option value="{{$item->id}}">{{$item->fees->title}}</option>
+                                    @endforeach
+
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="inputAddress">ملاحظات</label>
+                            <label for="inputAddress">{{trans('Account.Notes')}}</label>
                             <textarea class="form-control" name="description" id="exampleFormControlTextarea1"
                                       rows="4">{{$fee->description}}</textarea>
                         </div>
                         <br>
 
-                        <button type="submit" class="btn btn-primary">تاكيد</button>
+                        <button type="submit" class="btn btn-primary">{{trans('Account.sure')}}</button>
 
                     </form>
 

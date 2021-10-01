@@ -15,7 +15,7 @@ return [
     'List_sections'=>'List Sections',
     'students'=>'Students',
     'add_student'=>'Add student',
-    'list_students'=>'list Students',
+    'list_students'=>'List Students',
     'Students_Promotions'=>'Students Promotions',
     'information_student'=>'Information Students',
     'Student_information'=>'Student Information',
@@ -35,8 +35,11 @@ return [
     'Onlineclasses'=>'Online classes',
     'Settings'=>'Settings',
     'Users'=>'Users',
+    'list_Graduate'=>'List Graduate',
     'Copyright' => 'Copyright',
-    'Name_Programer' => 'Mohamed Shaban All Rights Reserved'
+    'Name_Programer' => 'Mohamed Shaban All Rights Reserved',
+    'add_Graduate'=>'Add New Graduate',
+
 
 
 ];

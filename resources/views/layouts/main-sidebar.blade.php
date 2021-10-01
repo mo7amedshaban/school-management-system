@@ -124,11 +124,11 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Accounts-menu" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="{{route('Fees.index')}}">الرسوم الدراسية</a> </li>
-                            <li> <a href="{{route('Fees_Invoices.index')}}">الفواتير</a> </li>
-                            <li> <a href="{{route('receipt_students.index')}}">سندات القبض</a> </li>
-                            <li> <a href="{{route('ProcessingFee.index')}}">استبعاد رسوم</a> </li>
-                            <li> <a href="{{route('Payment_students.index')}}">سندت الصرف</a> </li>
+                            <li> <a href="{{route('Fees.index')}}">{{trans('Account.study_fees')}}</a> </li>
+                            <li> <a href="{{route('Fees_Invoices.index')}}">{{trans('Account.Fees_Invoices')}}</a> </li>
+                            <li> <a href="{{route('receipt_students.index')}}">{{trans('Account.catch_receipt')}}</a> </li>
+                            <li> <a href="{{route('ProcessingFee.index')}}">{{trans('Account.ProcessingFee')}}</a> </li>
+                            <li> <a href="{{route('Payment_students.index')}}">{{trans('Account.Payment_students')}}</a> </li>
                         </ul>
                     </li>
 
@@ -140,17 +140,17 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Attendance-icon" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="{{route('Attendance.index')}}">قائمة الطلاب</a> </li>
+                            <li> <a href="{{route('Attendance.index')}}">{{trans('main_trans.list_students')}}</a> </li>
                         </ul>
                     </li>
                     <!-- Subjects-->
                     <li>
-                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#Subjects">                            <div class="pull-left"><i class="fas fa-book-open"></i><span class="right-nav-text">المواد الدراسية</span></div>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#Subjects">                            <div class="pull-left"><i class="fas fa-book-open"></i><span class="right-nav-text">{{trans('Account.Subjects')}}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Subjects" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="{{route('subjects.index')}}">قائمة المواد</a> </li>
+                            <li> <a href="{{route('subjects.index')}}">{{trans('Account.Subject_List')}} </a> </li>
                         </ul>
                     </li>
 
@@ -159,12 +159,12 @@
                     <!-- Quizzes-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#Exams-icon">
-                            <div class="pull-left"><i class="fas fa-book-open"></i><span class="right-nav-text">الاختبارات</span></div>                            <div class="pull-right"><i class="ti-plus"></i></div>
+                            <div class="pull-left"><i class="fas fa-book-open"></i><span class="right-nav-text">{{trans('Account.Quizzes')}}</span></div>                            <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Exams-icon" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="{{route('Quizzes.index')}}">قائمة الاختبارات</a> </li>
-                            <li> <a href="{{route('questions.index')}}">قائمة الاسئلة</a> </li>
+                            <li> <a href="{{route('Quizzes.index')}}">{{trans('Account.quizzes_list')}}</a> </li>
+                            <li> <a href="{{route('questions.index')}}">{{trans('Account.question_list')}}</a> </li>
                         </ul>
                     </li>
 

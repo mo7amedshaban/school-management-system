@@ -37,7 +37,7 @@ class QuizzRepository implements QuizzRepositoryInterface
             $quizzes->teacher_id = $request->teacher_id;
             $quizzes->save();
             toastr()->success(trans('messages.success'));
-            return redirect()->route('Quizzes.create');
+            return redirect()->route('Quizzes.index');
         }
         catch (\Exception $e) {
             return redirect()->back()->with(['error' => $e->getMessage()]);

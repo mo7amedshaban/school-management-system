@@ -10,7 +10,7 @@ class Grade extends Model
     use HasTranslations;
 
 # for tranlation
-    public $translatable = ['Name'];
+    public $translatable = ['Name', 'Notes'];
 
     protected $fillable = ['Name', 'Notes'];
 
@@ -23,5 +23,7 @@ class Grade extends Model
     {
         return $this->hasMany('App\Models\Section', 'Grade_id');
     }
+
+
 
 }

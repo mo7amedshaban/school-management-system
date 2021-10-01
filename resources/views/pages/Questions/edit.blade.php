@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    تعديل سؤال
+    {{trans('Account.edit_question')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    تعديل سؤال :<span class="text-danger">{{$question->title}}</span>
+    {{trans('Account.edit_question')}} =><span class="text-danger">{{$question->title}}</span>
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -36,7 +36,7 @@
                                 <div class="form-row">
 
                                     <div class="col">
-                                        <label for="title">اسم السؤال</label>
+                                        <label for="title">{{trans('Account.question_name')}} </label>
                                         <input type="text" name="title" id="input-name"
                                                class="form-control form-control-alternative" value="{{$question->title}}">
                                         <input type="hidden" name="id" value="{{$question->id}}">
@@ -46,7 +46,7 @@
 
                                 <div class="form-row">
                                     <div class="col">
-                                        <label for="title">الاجابات</label>
+                                        <label for="title">{{trans('Account.answers')}}</label>
                                         <textarea name="answers" class="form-control" id="exampleFormControlTextarea1" rows="4">{{$question->answers}}</textarea>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@
 
                                 <div class="form-row">
                                     <div class="col">
-                                        <label for="title">الاجابة الصحيحة</label>
+                                        <label for="title">{{trans('Account.correct_answer')}}</label>
                                         <input type="text" name="right_answer" id="input-name" class="form-control form-control-alternative" value="{{$question->right_answer}}">
                                     </div>
                                 </div>
@@ -63,10 +63,10 @@
                                 <div class="form-row">
                                     <div class="col-6">
                                         <div class="form-group">
-                                            <label for="Grade_id">اسم الاختبار : <span
+                                            <label for="Grade_id">{{trans('Account.quizze_name')}} <span
                                                     class="text-danger">*</span></label>
                                             <select class="custom-select mr-sm-2" name="quizze_id">
-                                                <option selected disabled>حدد اسم الاختبار...</option>
+                                                <option selected disabled>{{trans('Account.select_quizze_name')}}..</option>
                                                 @foreach($quizzes as $quizze)
                                                     <option value="{{ $quizze->id }}" {{$quizze->id == $question->quizze_id ? 'selected':'' }} >{{ $quizze->name }}</option>
                                                 @endforeach
@@ -75,9 +75,9 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="form-group">
-                                            <label for="Grade_id">الدرجة : <span class="text-danger">*</span></label>
+                                            <label for="Grade_id">{{trans('Account.grade')}} : <span class="text-danger">*</span></label>
                                             <select class="custom-select mr-sm-2" name="score">
-                                                <option selected disabled> حدد الدرجة...</option>
+                                                <option selected disabled> {{trans('Account.select_grade')}}...</option>
                                                 <option value="5" {{$question->score == 5 ? 'selected':''}}>5</option>
                                                 <option value="10" {{$question->score == 10 ? 'selected':''}}>10</option>
                                                 <option value="15" {{$question->score == 15 ? 'selected':''}}>15</option>
@@ -87,7 +87,7 @@
                                     </div>
                                 </div>
                                 <br>
-                                <button class="btn btn-success btn-sm nextBtn btn-lg pull-right" type="submit">حفظ البيانات</button>
+                                <button class="btn btn-success btn-sm nextBtn btn-lg pull-right" type="submit">{{trans('Account.sure_info')}} </button>
                             </form>
                         </div>
                     </div>

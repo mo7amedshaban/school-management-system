@@ -31,7 +31,7 @@ class QuestionRepository implements QuestionRepositoryInterface
             $question->quizze_id = $request->quizze_id;
             $question->save();
             toastr()->success(trans('messages.success'));
-            return redirect()->route('questions.create');
+            return redirect()->route('questions.index');
         } catch (\Exception $e) {
             return redirect()->back()->with(['error' => $e->getMessage()]);
         }

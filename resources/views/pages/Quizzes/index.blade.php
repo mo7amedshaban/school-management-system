@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    قائمة الاختبارات
+{{trans('Account.quizzes_list')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    قائمة الاختبارات
+    {{trans('Account.quizzes_list')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -22,7 +22,8 @@
                         <div class="card card-statistics h-100">
                             <div class="card-body">
                                 <a href="{{route('Quizzes.create')}}" class="btn btn-success btn-sm" role="button"
-                                   aria-pressed="true">اضافة اختبار جديد</a><br><br>
+                                   aria-pressed="true">{{trans('Account.add_new_quizze')}}
+                                </a><br><br>
                                 <div class="table-responsive">
                                     <table id="datatable" class="table  table-hover table-sm table-bordered p-0"
                                            data-page-length="50"
@@ -30,12 +31,14 @@
                                         <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>اسم الاختبار</th>
-                                            <th>اسم المعلم</th>
-                                            <th>المرحلة الدراسية</th>
-                                            <th>الصف الدراسي</th>
-                                            <th>القسم</th>
-                                            <th>العمليات</th>
+                                            <th>{{trans('Account.quizze_name')}}</th>
+                                            <th>{{trans('Account.Teacher_Name')}}</th>
+                                            <th>{{trans('Account.Educational_level')}}</th>
+                                            <th>{{trans('Account.classroom')}}</th>
+                                            <th>{{trans('Account.section')}}</th>
+                                            <th>{{trans('Account.processes')}}</th>
+
+
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -67,7 +70,7 @@
                                                         <div class="modal-content">
                                                             <div class="modal-header">
                                                                 <h5 style="font-family: 'Cairo', sans-serif;"
-                                                                    class="modal-title" id="exampleModalLabel">حذف اختبار</h5>
+                                                                    class="modal-title" id="exampleModalLabel">{{trans('Account.delete_quizze')}} </h5>
                                                                 <button type="button" class="close" data-dismiss="modal"
                                                                         aria-label="Close">
                                                                     <span aria-hidden="true">&times;</span>

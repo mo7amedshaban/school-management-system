@@ -27,6 +27,8 @@ return [
     'List_Teachers' => 'قائمة المعلمين',
     'Parents'=>'اولياء الامور',
     'List_Parents'=>'قائمة اولياء الامور',
+    'list_Graduate'=>'قائمه الخريجين',
+
     'Add_Parent'=>'اضافة ولي امر',
     'Accounts'=>'الحسابات',
     'Attendance'=>'الحضور والغياب',

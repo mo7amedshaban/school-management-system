@@ -5,8 +5,8 @@ return [
     'title_page' => 'Grades',
     'List_Grade' => 'List_Grade',
     'add_Grade' => 'Add Grade',
-    'edit_Grade'=> 'edit_Grade',
-    'delete_Grade'=> 'delete_Grade',
+    'edit_Grade'=> 'Edit_Grade',
+    'delete_Grade'=> 'Delete_Grade',
     'Warning_Grade'=> 'Are Sure Of The Deleting Process ?',
     'stage_name_ar' => 'stage_name_ar',
     'stage_name_en' => 'stage_name_en',
@@ -20,5 +20,7 @@ return [
     'exists'=>'This field already exists',
     'Delete'=>'Delete',
     'Close' => 'Close',
+    'Notes_ar'=>'Notes_ar',
+    'Notes_en'=>'Notes_en'
 
 ];

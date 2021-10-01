@@ -59,8 +59,6 @@ preloader -->
         </div><!-- main content wrapper end-->
     </div>
 </div>
-</div>
-
 <!--=================================
 footer -->
 

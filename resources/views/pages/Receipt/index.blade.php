@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    سندات القبض
+    {{trans('Account.catch_receipt')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    سندات القبض
+    {{trans('Account.catch_receipt')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -28,10 +28,12 @@
                                         <thead>
                                         <tr class="alert-success">
                                             <th>#</th>
-                                            <th>الاسم</th>
-                                            <th>المبلغ</th>
-                                            <th>البيان</th>
-                                            <th>العمليات</th>
+                                            <th>{{trans('Account.name')}}</th>
+                                            <th>{{trans('Account.money')}}</th>
+
+                                            <th>{{trans('Account.Statement')}}</th>
+                                            <th>{{trans('Account.processes')}}</th>
+
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -42,8 +44,13 @@
                                                 <td>{{ number_format($receipt_student->Debit, 2) }}</td>
                                                 <td>{{$receipt_student->description}}</td>
                                                 <td>
-                                                    <a href="{{route('receipt_students.edit',$receipt_student->id)}}" class="btn btn-info btn-sm" role="button" aria-pressed="true"><i class="fa fa-edit"></i></a>
-                                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#Delete_receipt{{$receipt_student->id}}" ><i class="fa fa-trash"></i></button>
+                                                    <a href="{{route('receipt_students.edit',$receipt_student->id)}}"
+                                                       class="btn btn-info btn-sm" role="button" aria-pressed="true"><i
+                                                            class="fa fa-edit"></i></a>
+                                                    <button type="button" class="btn btn-danger btn-sm"
+                                                            data-toggle="modal"
+                                                            data-target="#Delete_receipt{{$receipt_student->id}}"><i
+                                                            class="fa fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         @include('pages.Receipt.Delete')

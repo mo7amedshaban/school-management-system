@@ -83,7 +83,7 @@ class StudentController extends Controller
             }
             DB::commit(); // insert data
             toastr()->success(trans('messages.success'));
-            return redirect()->route('Students.create');
+            return redirect()->route('Students.index');
 
         } catch (\Exception $e) {
             DB::rollback();

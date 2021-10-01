@@ -4,12 +4,43 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
+
+//Auth::routes();
+# this instead of    //Auth::routes();   for localization
+Route::group(['prefix' => LaravelLocalization::setLocale(),
+], function () {
+    Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
+    Route::post('login', 'Auth\LoginController@login');
+    Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+// Registration Routes...
+    Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+    Route::post('register', 'Auth\RegisterController@register');
+
+// Password Reset Routes...
+    Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+    Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+    Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+    Route::post('password/reset', 'Auth\ResetPasswordController@reset')->name('password.update');
+
+    // Confirm Password (added in v6.2)
+    Route::get('password/confirm', 'Auth\ConfirmPasswordController@showConfirmForm')->name('password.confirm');
+    Route::post('password/confirm', 'Auth\ConfirmPasswordController@confirm');
+
+// Email Verification Routes...
+    Route::get('email/verify', 'Auth\VerificationController@show')->name('verification.notice');
+    Route::get('email/verify/{id}/{hash}', 'Auth\VerificationController@verify')->name('verification.verify'); // v6.x
+    /* Route::get('email/verify/{id}', 'Auth\VerificationController@verify')->name('verification.verify'); // v5.x */
+    Route::get('email/resend', 'Auth\VerificationController@resend')->name('verification.resend');
+
+});
+
 /****
  * guest is -->  any one refresh website he is login not ask again about username & password ,
  *   if not login ask you about login
  ****/
-Auth::routes();
-Route::group(['middleware' => 'guest'], function () {
+
+Route::group(['middleware' => 'guest',], function () {
     Route::get('/', function () {
         return view('auth.login');
     });
@@ -22,10 +53,11 @@ Route::group(
         'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath', 'auth']
     ], function () {
 
+
     Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 
     Route::group(['namespace' => 'Grades'], function () {
-        Route::resource('Grades','GradeController');
+        Route::resource('Grades', 'GradeController');
     });
 
     //==============================Classrooms============================
@@ -36,7 +68,6 @@ Route::group(
         Route::post('Filter_Classes', 'ClassroomController@Filter_Classes')->name('Filter_Classes');
 
     });
-
 
 
     //==============================Sections============================
@@ -50,10 +81,9 @@ Route::group(
     });
 
 
-
     //==============================parents============================
 
-    Route::view('add_parent','livewire.show_Form');
+    Route::view('add_parent', 'livewire.show_Form');
 
 
     //==============================Teachers============================
@@ -96,9 +126,6 @@ Route::group(
     Route::group(['namespace' => 'questions'], function () {
         Route::resource('questions', 'QuestionController');
     });
-
-
-
 
 
 });

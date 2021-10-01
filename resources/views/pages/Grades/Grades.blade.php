@@ -22,7 +22,6 @@
         @endif
 
 
-
         <div class="col-xl-12 mb-30">
             <div class="card card-statistics h-100">
                 <div class="card-body">
@@ -43,7 +42,8 @@
                     <br><br>
 
                     <div class="table-responsive">
-                        <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
+                        <table id="datatable" class="table  table-hover table-sm table-bordered p-0"
+                               data-page-length="50"
                                style="text-align: center">
                             <thead>
                             <tr>
@@ -64,7 +64,8 @@
                                     <td>
                                         <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
                                                 data-target="#edit{{ $Grade->id }}"
-                                                title="{{ trans('Grades_trans.Edit') }}"><i class="fa fa-edit"></i></button>
+                                                title="{{ trans('Grades_trans.Edit') }}"><i class="fa fa-edit"></i>
+                                        </button>
                                         <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
                                                 data-target="#delete{{ $Grade->id }}"
                                                 title="{{ trans('Grades_trans.Delete') }}"><i
@@ -113,13 +114,21 @@
                                                                    name="Name_en" required>
                                                         </div>
                                                     </div>
+                                                    <br>
                                                     <div class="form-group">
                                                         <label
-                                                            for="exampleFormControlTextarea1">{{ trans('Grades_trans.Notes') }}
+                                                            for="exampleFormControlTextarea1">{{ trans('Grades_trans.Notes_en') }}
+                                                            :</label>
+                                                        <textarea class="form-control" name="Notes_en"
+                                                                  id="exampleFormControlTextarea1"
+                                                                  rows="3">{{ $Grade->getTranslation('Notes', 'en') }}</textarea>
+                                                        <br><br>
+                                                        <label
+                                                            for="exampleFormControlTextarea1">{{ trans('Grades_trans.Notes_ar') }}
                                                             :</label>
                                                         <textarea class="form-control" name="Notes"
                                                                   id="exampleFormControlTextarea1"
-                                                                  rows="3">{{ $Grade->Notes }}</textarea>
+                                                                  rows="3">{{ $Grade->getTranslation('Notes', 'ar') }}</textarea>
                                                     </div>
                                                     <br><br>
 
@@ -208,10 +217,16 @@
                                     <input type="text" class="form-control" name="Name_en">
                                 </div>
                             </div>
+                            <br>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">{{ trans('Grades_trans.Notes') }}
+                                <label for="exampleFormControlTextarea1">{{ trans('Grades_trans.Notes_ar') }}
                                     :</label>
                                 <textarea class="form-control" name="Notes" id="exampleFormControlTextarea1"
+                                          rows="3"></textarea>
+                                <br>
+                                <label for="exampleFormControlTextarea1">{{ trans('Grades_trans.Notes_en') }}
+                                    :</label>
+                                <textarea class="form-control" name="Notes_en" id="exampleFormControlTextarea1"
                                           rows="3"></textarea>
                             </div>
                             <br><br>

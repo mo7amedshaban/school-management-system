@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    تعديل رسوم دراسية
+    {{trans('Account.edit_fee')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    تعديل رسوم دراسية
+    {{trans('Account.edit_fee')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -34,14 +34,14 @@
                         @csrf
                         <div class="form-row">
                             <div class="form-group col">
-                                <label for="inputEmail4">اسم الطالب</label>
+                                <label for="inputEmail4">{{trans('Account.name')}}</label>
                                 <input type="text" value="{{$fee_invoices->student->name}}" readonly name="title_ar" class="form-control">
                                 <input type="hidden" value="{{$fee_invoices->id}}" name="id" class="form-control">
                             </div>
 
 
                             <div class="form-group col">
-                                <label for="inputEmail4">المبلغ</label>
+                                <label for="inputEmail4">{{trans('Account.money')}}</label>
                                 <input type="number" value="{{$fee_invoices->amount}}" name="amount" class="form-control">
                             </div>
 
@@ -51,7 +51,7 @@
                         <div class="form-row">
 
                             <div class="form-group col">
-                                <label for="inputZip">نوع الرسوم</label>
+                                <label for="inputZip">{{trans('Account.fee_type')}}</label>
                                 <select class="custom-select mr-sm-2" name="fee_id">
                                     @foreach($fees as $fee)
                                         <option value="{{$fee->id}}" {{$fee->id == $fee_invoices->fee_id ? 'selected':"" }}>{{$fee->title}}</option>
@@ -62,12 +62,12 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="inputAddress">ملاحظات</label>
+                            <label for="inputAddress">{{trans('Account.Notes')}}</label>
                             <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="4">{{$fee_invoices->description}}</textarea>
                         </div>
                         <br>
 
-                        <button type="submit" class="btn btn-primary">تاكيد</button>
+                        <button type="submit" class="btn btn-primary">{{trans('Account.sure')}}</button>
 
                     </form>
 

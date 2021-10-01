@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    قائمة المواد الدراسية
+    {{trans('Account.Study_Subject_List')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    قائمة المواد الدراسية
+    {{trans('Account.Study_Subject_List')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -22,7 +22,8 @@
                         <div class="card card-statistics h-100">
                             <div class="card-body">
                                 <a href="{{route('subjects.create')}}" class="btn btn-success btn-sm" role="button"
-                                   aria-pressed="true">اضافة مادة جديدة</a><br><br>
+                                   aria-pressed="true">    {{trans('Account.Add_new_article')}}
+                                </a><br><br>
                                 <div class="table-responsive">
                                     <table id="datatable" class="table  table-hover table-sm table-bordered p-0"
                                            data-page-length="50"
@@ -30,11 +31,11 @@
                                         <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>اسم المادة</th>
-                                            <th>المرحلة الدراسية</th>
-                                            <th>الصف الدراسي</th>
-                                            <th>اسم المعلم</th>
-                                            <th>العمليات</th>
+                                            <th>{{trans('Account.Subject_Name')}}</th>
+                                            <th>{{trans('Account.Educational_level')}}</th>
+                                            <th>{{trans('Account.classroom')}}</th>
+                                            <th>{{trans('Account.Teacher_Name')}}</th>
+                                            <th>{{trans('Account.processes')}}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -58,7 +59,7 @@
                                                         {{csrf_field()}}
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">حذف مادة دراسية</h5>
+                                                                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">{{trans('Account.Delete_course')}}</h5>
                                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                                     <span aria-hidden="true">&times;</span>
                                                                 </button>
