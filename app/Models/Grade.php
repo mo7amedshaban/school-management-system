@@ -14,7 +14,7 @@ class Grade extends Model
 
     protected $fillable = ['Name', 'Notes'];
 
-    protected $table = 'Grades';
+    protected $table = 'grades';
     public $timestamps = true;
 
     // علاقة المراحل الدراسية لجلب الاقسام المتعلقة بكل مرحلة
