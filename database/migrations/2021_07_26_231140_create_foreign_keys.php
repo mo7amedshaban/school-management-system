@@ -8,15 +8,15 @@ class CreateForeignKeys extends Migration {
 
     public function up()
     {
-        Schema::table('Classrooms', function(Blueprint $table) {
-            $table->foreign('Grade_id')->references('id')->on('grades')
-                ->onDelete('cascade');
-        });
-
-        Schema::table('sections', function(Blueprint $table) {
-            $table->foreign('Grade_id')->references('id')->on('grades')
-                ->onDelete('cascade');
-        });
+//        Schema::table('Classrooms', function(Blueprint $table) {
+//            $table->foreign('Grade_id')->references('id')->on('grades')
+//                ->onDelete('cascade');
+//        });
+//
+//        Schema::table('sections', function(Blueprint $table) {
+//            $table->foreign('Grade_id')->references('id')->on('grades')
+//                ->onDelete('cascade');
+//        });
 
         Schema::table('my__parents', function(Blueprint $table) {
             $table->foreign('Nationality_Father_id')->references('id')->on('nationalities');
