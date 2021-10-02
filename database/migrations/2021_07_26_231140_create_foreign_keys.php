@@ -36,14 +36,14 @@ class CreateForeignKeys extends Migration {
 
     public function down()
     {
-        Schema::table('Classrooms', function(Blueprint $table) {
-            $table->dropForeign('Classrooms_Grade_id_foreign');
-        });
-        Schema::table('sections', function(Blueprint $table) {
-            $table->dropForeign('sections_Grade_id_foreign');
-        });
-        Schema::table('sections', function(Blueprint $table) {
-            $table->dropForeign('sections_Class_id_foreign');
-        });
+//        Schema::table('Classrooms', function(Blueprint $table) {
+//            $table->dropForeign('Classrooms_Grade_id_foreign');
+//        });
+//        Schema::table('sections', function(Blueprint $table) {
+//            $table->dropForeign('sections_Grade_id_foreign');
+//        });
+//        Schema::table('sections', function(Blueprint $table) {
+//            $table->dropForeign('sections_Class_id_foreign');
+//        });
     }
 }
