@@ -8,15 +8,15 @@ class CreateForeignKeys extends Migration {
 
     public function up()
     {
-//        Schema::table('classrooms', function(Blueprint $table) {
-//            $table->foreign('Grade_id')->references('id')->on('grades')
-//                ->onDelete('cascade');
-//        });
-//
-//        Schema::table('sections', function(Blueprint $table) {
-//            $table->foreign('Grade_id')->references('id')->on('grades')
-//                ->onDelete('cascade');
-//        });
+        Schema::table('classrooms', function(Blueprint $table) {
+            $table->foreign('Grade_id')->references('id')->on('grades')
+                ->onDelete('cascade');
+        });
+
+        Schema::table('sections', function(Blueprint $table) {
+            $table->foreign('Grade_id')->references('id')->on('grades')
+                ->onDelete('cascade');
+        });
 
         Schema::table('my__parents', function(Blueprint $table) {
             $table->foreign('Nationality_Father_id')->references('id')->on('nationalities');
@@ -36,14 +36,14 @@ class CreateForeignKeys extends Migration {
 
     public function down()
     {
-//        Schema::table('classrooms', function(Blueprint $table) {
-//            $table->dropForeign('Classrooms_Grade_id_foreign');
-//        });
-//        Schema::table('sections', function(Blueprint $table) {
-//            $table->dropForeign('sections_Grade_id_foreign');
-//        });
-//        Schema::table('sections', function(Blueprint $table) {
-//            $table->dropForeign('sections_Class_id_foreign');
-//        });
+        Schema::table('classrooms', function(Blueprint $table) {
+            $table->dropForeign('classrooms_Grade_id_foreign');
+        });
+        Schema::table('sections', function(Blueprint $table) {
+            $table->dropForeign('sections_Grade_id_foreign');
+        });
+        Schema::table('sections', function(Blueprint $table) {
+            $table->dropForeign('sections_Class_id_foreign');
+        });
     }
 }

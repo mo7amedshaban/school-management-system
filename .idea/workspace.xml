@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_090640_create_fees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_090640_create_fees_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_08_24_105903_create_fee_invoices_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_08_24_105903_create_fee_invoices_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_09_01_221243_create_attendances_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_01_221243_create_attendances_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_09_02_204634_create_subjects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_204634_create_subjects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_09_02_214238_create_quizzes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_214238_create_quizzes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_26_231140_create_foreign_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_07_26_231140_create_foreign_keys.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +215,7 @@
       <workItem from="1630509101235" duration="75722000" />
       <workItem from="1633171680406" duration="3154000" />
       <workItem from="1633175843197" duration="40000" />
-      <workItem from="1633177511123" duration="1023000" />
+      <workItem from="1633177511123" duration="1186000" />
     </task>
     <servers />
   </component>
