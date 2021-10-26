@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Zoom/OnlineClasseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Traits/MeetingZoomTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/online_classe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/zoom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_26_161747_create_online_classes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/online_classes/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/online_classes/delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/online_classes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school-management-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school-management-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +157,12 @@
       <path value="$PROJECT_DIR$/vendor/yoeunes/toastr" />
       <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/macsidigital/laravel-api-client" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/macsidigital/laravel-oauth2-client" />
+      <path value="$PROJECT_DIR$/vendor/macsidigital/laravel-zoom" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-client" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qioO9dUOMbslZVWVfDIsLHvO2T" />
@@ -214,7 +236,10 @@
       <workItem from="1630509101235" duration="75722000" />
       <workItem from="1633171680406" duration="3154000" />
       <workItem from="1633175843197" duration="40000" />
-      <workItem from="1633177511123" duration="4983000" />
+      <workItem from="1633177511123" duration="5047000" />
+      <workItem from="1633193018369" duration="47000" />
+      <workItem from="1633258261016" duration="752000" />
+      <workItem from="1635109659194" duration="13921000" />
     </task>
     <servers />
   </component>

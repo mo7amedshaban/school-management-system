@@ -119,3 +119,12 @@ public function update(StoreSections $request)
                 $table->foreignId('Classroom_id')->references('id')->on('Classrooms')->onDelete('cascade');
 
    ```
+
+```
+#integration with zoom
+https://github.com/MacsiDigital/laravel-zoom
+install package from link and
+open .env  add two variables
+open zoom and create app 
+1- tab -> solution ->appMarketplace->develop->build app
+```

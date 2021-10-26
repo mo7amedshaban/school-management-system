@@ -128,5 +128,13 @@ Route::group(
     });
 
 
+    //============================OnlineClasse==============================
+
+    Route::group(['namespace' => 'Zoom'], function () {
+        Route::resource('online_classes', 'OnlineClasseController');
+    });
+
+
 });
+
 
