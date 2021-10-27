@@ -30,50 +30,27 @@ class OnlineClasseController extends Controller
 
     public function store(Request $request)
     {
+# create in zoom
+
+        $meeting = $this->createMeeting($request);
+# create in DB
+        online_classe::create([
+            'Grade_id' => $request->Grade_id,
+            'Classroom_id' => $request->Classroom_id,
+            'section_id' => $request->section_id,
+            'user_id' => auth()->user()->id,
+            'meeting_id' => $meeting->id,
+            'topic' => $request->topic,
+            'start_at' => $request->start_time,
+            'duration' => $meeting->duration,
+            'password' => $meeting->password,
+            'start_url' => $meeting->start_url,
+            'join_url' => $meeting->join_url,
+        ]);
+        toastr()->success(trans('messages.success'));
+        return redirect()->route('online_classes.index');
 
 
-
-        try {
-            $meeting = $this->createMeeting($request);
-
-            online_classe::create([
-                   'Grade_id' => $request->Grade_id,
-                   'Classroom_id' => $request->Classroom_id,
-                   'section_id' => $request->section_id,
-                   'user_id' => auth()->user()->id,
-                   'meeting_id' => $meeting->id,
-                   'topic' => $request->topic,
-                   'start_at' => $request->start_time,
-                   'duration' => $meeting->duration,
-                   'password' => $meeting->password,
-                   'start_url' => $meeting->start_url,
-                   'join_url' => $meeting->join_url,
-               ]);
-            toastr()->success(trans('messages.success'));
-            return redirect()->route('online_classes.index');
-
-        } catch (\Exception $e) {
-            return redirect()->back()->with(['error' => $e->getMessage()]);
-        }
-
-    }
-
-
-    public function show($id)
-    {
-        //
-    }
-
-
-    public function edit($id)
-    {
-        //
-    }
-
-
-    public function update(Request $request, $id)
-    {
-        //
     }
 
 

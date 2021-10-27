@@ -192,7 +192,7 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Onlineclasses-icon" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="{{route('online_classes.index')}}">الاتصال مباشر مع زوم</a> </li>
+                            <li> <a href="{{route('online_classes.index')}}">{{trans('onlineclasse.connect_direct_with_zoom')}}</a> </li>
                         </ul>
                     </li>
 

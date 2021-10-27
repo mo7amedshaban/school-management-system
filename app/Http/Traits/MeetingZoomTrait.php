@@ -8,14 +8,14 @@ trait MeetingZoomTrait
 {
     public function createMeeting($request)
     {
-        $zoom = new \MacsiDigital\Zoom\Support\Entry;
-        $user = new \MacsiDigital\Zoom\User($zoom);
+        $user = Zoom::user()->first();
+
         $meetingData = [
             'topic' => $request->topic,
             'duration' => $request->duration,
             'password' => $request->password,
             'start_time' => $request->start_time,
-//            'timezone' => config('zoom.timezone'),
+//            'timezone' => config('zoom.timezone'),  //timezone in zoom application
             'timezone' => 'Africa/Cairo'
         ];
 
@@ -32,7 +32,7 @@ trait MeetingZoomTrait
         ]);
 
 
-        return $user->meetings()->save($meeting);           // error here
+        return $user->meetings()->save($meeting);
 
 
     }

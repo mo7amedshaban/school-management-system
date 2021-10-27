@@ -2,13 +2,13 @@
 @section('css')
     @toastr_css
 @section('title')
-    اضافة حصة جديدة
+    {{trans('onlineclasse.add_new_session')}}
 @stop
 @endsection
 @section('page-header')
     <!-- breadcrumb -->
 @section('PageTitle')
-    اضافة حصة جديدة
+    {{trans('onlineclasse.add_new_session')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -69,20 +69,20 @@
 
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>عنوان الحصة : <span class="text-danger">*</span></label>
+                                    <label>{{trans('onlineclasse.title_course')}} : <span class="text-danger">*</span></label>
                                     <input class="form-control" name="topic" type="text">
                                 </div>
                             </div>
 
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>تاريخ ووقت الحصة : <span class="text-danger">*</span></label>
+                                    <label>{{trans('onlineclasse.Joining_Date')}} :<span class="text-danger">*</span></label>
                                     <input class="form-control" type="datetime-local" name="start_time">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>مدة الحصة بالدقائق : <span class="text-danger">*</span></label>
+                                    <label>{{trans('onlineclasse.time_course')}} :<span class="text-danger">*</span></label>
                                     <input class="form-control" name="duration" type="text">
                                 </div>
                             </div>
