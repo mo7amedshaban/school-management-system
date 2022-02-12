@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/onlineclasse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/onlineclasse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Zoom/OnlineClasseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Zoom/OnlineClasseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Traits/MeetingZoomTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/MeetingZoomTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/online_classes/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/online_classes/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/online_classes/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/online_classes/delete.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/online_classes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/online_classes/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +223,9 @@
       <workItem from="1633177511123" duration="5047000" />
       <workItem from="1633193018369" duration="47000" />
       <workItem from="1633258261016" duration="752000" />
-      <workItem from="1635109659194" duration="18759000" />
+      <workItem from="1635109659194" duration="20592000" />
+      <workItem from="1635346800866" duration="567000" />
+      <workItem from="1636552878323" duration="601000" />
     </task>
     <servers />
   </component>

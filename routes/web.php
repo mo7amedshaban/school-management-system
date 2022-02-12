@@ -131,7 +131,10 @@ Route::group(
     //============================OnlineClasse==============================
 
     Route::group(['namespace' => 'Zoom'], function () {
+        Route::post('/indirect', 'OnlineClasseController@storeIndirect')->name('indirect.store');
+
         Route::resource('online_classes', 'OnlineClasseController');
+        Route::get('/indirect', 'OnlineClasseController@indirectCreate')->name('indirect.create');
     });
 
 

@@ -10,7 +10,7 @@
 
 #### yoeunes / toastr
 
-* for notification when isert success or fail
+* for notification when insert success or fail
 #### Html   classrooms.blade.php   controller/classroom/ store
 ```angular2html
 use it when add many columns
@@ -19,7 +19,6 @@ use it when add many columns
         <div data-repeater-item>
             <div class="row">
 
-        
         # List_Classes return array of string
 ```
 when use relation many to many
@@ -121,10 +120,23 @@ public function update(StoreSections $request)
    ```
 
 ```
-#integration with zoom
+#integration with zoom      one  meeting
 https://github.com/MacsiDigital/laravel-zoom
 install package from link and
 open .env  add two variables
 open zoom and create app 
 1- tab -> solution ->appMarketplace->develop->build app
+
+indirect  many meeting
+not use integration but add link and password
+can use any thing not only zoom use google meeting and anydisk
+```
+
+```
+#
+ $protected guard = [];
+ meening all columns fillable
+
+ $protected guard = ['phone'];
+ meening all columns fillable without phone
 ```

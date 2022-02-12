@@ -35,6 +35,7 @@ class OnlineClasseController extends Controller
         $meeting = $this->createMeeting($request);
 # create in DB
         online_classe::create([
+            'integration' => true,   # add column in db
             'Grade_id' => $request->Grade_id,
             'Classroom_id' => $request->Classroom_id,
             'section_id' => $request->section_id,
@@ -52,14 +53,56 @@ class OnlineClasseController extends Controller
 
 
     }
+    #--------------> indirect zoom integration <-------------
 
+    public function indirectCreate()
+    {
+        $Grades = Grade::all();
+        return view('pages.online_classes.indirect', compact('Grades'));
+    }
+
+    public function storeIndirect(Request $request)
+    {
+        try {
+            online_classe::create([
+                'integration' => false,   # add column in db
+                'Grade_id' => $request->Grade_id,
+                'Classroom_id' => $request->Classroom_id,
+                'section_id' => $request->section_id,
+                'user_id' => auth()->user()->id,
+                'meeting_id' => $request->meeting_id,
+                'topic' => $request->topic,
+                'start_at' => $request->start_time,
+                'duration' => $request->duration,
+                'password' => $request->password,
+                'start_url' => $request->start_url,
+                'join_url' => $request->join_url,
+            ]);
+            toastr()->success(trans('messages.success'));
+            return redirect()->route('online_classes.index');
+        } catch (\Exception $e) {
+            return redirect()->back()->with(['error' => $e->getMessage()]);
+        }
+
+    }
+
+    #-----> destroy direct and indirect zoom integration <-------------
 
     public function destroy(Request $request)
     {
         try {
-            $meeting = Zoom::meeting()->find($request->id);
-            $meeting->delete();
-            online_classe::where('meeting_id', $request->id)->delete();
+            $info = online_classe::find($request->id);
+
+            if($info->integration == true){
+                $meeting = Zoom::meeting()->find($request->meeting_id);
+                $meeting->delete();
+               // online_classe::where('meeting_id', $request->id)->delete();
+                online_classe::destroy($request->id);
+            }
+            else{
+               // online_classe::where('meeting_id', $request->id)->delete();
+                online_classe::destroy($request->id);
+            }
             toastr()->success(trans('messages.Delete'));
             return redirect()->route('online_classes.index');
         } catch (\Exception $e) {
