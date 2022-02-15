@@ -108,6 +108,8 @@ Route::group(
         Route::resource('ProcessingFee', 'ProcessingFeeController');
         Route::resource('Payment_students', 'PaymentController');
         Route::resource('Attendance', 'AttendanceController');
+        Route::get('download_file/{filename}', 'LibraryController@downloadAttachment')->name('downloadAttachment');
+        Route::resource('library', 'LibraryController');
 
     });
 

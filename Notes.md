@@ -96,6 +96,7 @@ public function update(StoreSections $request)
 * create 2 files      TeacherRepositoryInterface.php , RepositoryInterface.php
 * create Provider and register 2 files in it    pa make:provider name
 * open config/app  and register provider here
+* make construct in controller for call design patterns
 
 
 ### soft Delete
@@ -115,7 +116,7 @@ public function update(StoreSections $request)
         $table->foreign('teacher_id')->references('id')->on('teachers')->onDelete('cascade');
     
     # use foreignId
-                $table->foreignId('Classroom_id')->references('id')->on('Classrooms')->onDelete('cascade');
+                $table->foreignId('Classroom_id')->references('id')->on('classrooms')->onDelete('cascade');
 
    ```
 
@@ -139,4 +140,13 @@ can use any thing not only zoom use google meeting and anydisk
 
  $protected guard = ['phone'];
  meening all columns fillable without phone
+```
+```
+    <a href="{{route('library.edit',$book->id)}}">
+      this link not form in controller use 
+      $id not Request $request  but  in form use Request $request
+    public function edit($id)
+    {
+
+    }
 ```

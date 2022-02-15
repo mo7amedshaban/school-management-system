@@ -2,13 +2,12 @@
 @section('css')
     @toastr_css
 @section('title')
-    اضافة حصة جديدة اوفلاين
-@stop
+{{trans('Students_trans.Add_new_course_offline')}}@stop
 @endsection
 @section('page-header')
 <!-- breadcrumb -->
 @section('PageTitle')
-    اضافة حصة جديدة اوفلاين
+{{trans('Students_trans.Add_new_course_offline')}}
 @stop
 <!-- breadcrumb -->
 @endsection
@@ -69,7 +68,7 @@
 
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label>رقم الاجتماع : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.meeting_number')}} : <span class="text-danger">*</span></label>
                                 <input class="form-control" name="meeting_id" type="number">
                             </div>
                         </div>
@@ -77,27 +76,27 @@
 
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label>عنوان الحصة : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.Class_title')}} : <span class="text-danger">*</span></label>
                                 <input class="form-control" name="topic" type="text">
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>تاريخ ووقت الحصة : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.Class_date')}} : <span class="text-danger">*</span></label>
                                 <input class="form-control" type="datetime-local" name="start_time">
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label>مدة الحصة بالدقائق : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.Class_duration_minutes')}} :<span class="text-danger">*</span></label>
                                 <input class="form-control" name="duration" type="number">
                             </div>
                         </div>
 
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label>كلمة المرور الاجتماع : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.Meeting_password')}} : <span class="text-danger">*</span></label>
                                 <input class="form-control" name="password" type="text">
                             </div>
                         </div>
@@ -109,14 +108,14 @@
 
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>لينك البدء : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.Link_start')}} : <span class="text-danger">*</span></label>
                                 <input class="form-control" name="start_url" type="text">
                             </div>
                         </div>
 
                         <div class="col-md-8">
                             <div class="form-group">
-                                <label>لينك الدخول للطلاب : <span class="text-danger">*</span></label>
+                                <label>{{trans('Students_trans.Link_login_for_students')}} : <span class="text-danger">*</span></label>
                                 <input class="form-control" name="join_url" type="text">
                             </div>
                         </div>

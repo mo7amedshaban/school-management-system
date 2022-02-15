@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'attachments'=>'المرفقات',
+    'edit_book'=>'تعديل كتاب',
+    'list_book'=>'قائمه الكتب',
+    'add_new_book'=>'اضافه كتاب جديد',
+    'book_name'=>'اسم الكتاب',
+    'downlook_book'=>'تحميل الكتاب',
+    'delete_book'=>'حذف كتاب',
+
 
     'Add_new_fees'=>'اضافة رسوم جديدة',
     'study_fees'=>'الرسوم الدراسيه',
