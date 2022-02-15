@@ -1,6 +1,16 @@
 <?php
 
 return [
+    'attachments'=>'Attachments',
+    'edit_book'=>'Book Edit',
+    'book_name'=>'Book Name',
+
+    'list_book'=>'Book List',
+    'add_new_book'=>'Add New Book',
+    'downlook_book'=>'Download Book',
+    'delete_book'=>'Delete Book',
+
+
     'Add_new_fees'=>'Add New Fees',
     'study_fees'=>'Study Fees',
     'name'=>'Name',

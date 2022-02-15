@@ -96,12 +96,13 @@ class OnlineClasseController extends Controller
             if($info->integration == true){
                 $meeting = Zoom::meeting()->find($request->meeting_id);
                 $meeting->delete();
-               // online_classe::where('meeting_id', $request->id)->delete();
-                online_classe::destroy($request->id);
+                online_classe::where('meeting_id', $request->id)->delete();
+
+                // online_classe::destroy($request->id);
             }
             else{
-               // online_classe::where('meeting_id', $request->id)->delete();
-                online_classe::destroy($request->id);
+               online_classe::where('meeting_id', $request->id)->delete();
+                // online_classe::destroy($request->id);
             }
             toastr()->success(trans('messages.Delete'));
             return redirect()->route('online_classes.index');

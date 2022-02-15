@@ -1,6 +1,16 @@
 <?php
 
 return [
+    'Add_new_course_offline'=>'Add a new course offline',
+    'meeting_number'=>'Meeting Number',
+    'Class_title'=>'Class title',
+    'Class_date'=> 'Class date and time',
+    'Class_duration_minutes'=> 'Class duration in minutes',
+    'Meeting_password'=>'Meeting password',
+    'Link_start'=>'Link to start',
+    'Link_login_for_students'=>'Link to login for students',
+
+
 
     'personal_information' => 'personal information',
     'name' => 'Name',

@@ -1,6 +1,18 @@
 <?php
 
 return [
+    'meeting_number'=>'رقم الاجتماع',
+    'Class_title'=>'عنوان الحصه',
+    'Class_date'=> 'تاريخ ووقت الحصه',
+    'Class_duration_minutes'=> 'مده الحصه بالدقائق',
+    'Meeting_password'=>'كلمه مرور الاجتماع',
+    'Link_start'=>'لينك البدء',
+    'Link_login_for_students'=>'لينك الدخول للطلاب',
+    'Add_new_course_offline'=>'اضافة حصة جديدة اوفلاين',
+
+
+
+
 
 
     'personal_information' => 'المعلومات الشخصية',
