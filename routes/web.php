@@ -139,6 +139,9 @@ Route::group(
         Route::get('/indirect', 'OnlineClasseController@indirectCreate')->name('indirect.create');
     });
 
+        //==============================Setting============================
+        Route::resource('settings', 'SettingController');
+
 
 });
 

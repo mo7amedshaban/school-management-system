@@ -6,10 +6,10 @@ use Illuminate\Support\Facades\Storage;
 
 trait AttachFilesTrait
 {
-    public function uploadFile($request,$file_name)
-    {
+    public function uploadFile($request,$file_name,$folder)    {
         $name_file = $request->file($file_name)->getClientOriginalName();
-        $request->file($file_name)->storeAs('attachments/library/',$name_file,'upload_attachments');
+        // $request->file($file_name)->storeAs('attachments/library/',$name_file,'upload_attachments');
+        $request->file($file_name)->storeAs('attachments/',$folder.'/'.$name_file,'upload_attachments');
     }
 
     public function deleteFile($name)
