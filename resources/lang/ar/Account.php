@@ -1,6 +1,18 @@
 <?php
 
 return [
+    'School_short_name'=>'اسم المدرسه المختصر',
+    'phone'=>'رقم الهاتف',
+    'E-mail'=>'البريد الالكترونى',
+    'school_address'=>'عنوان المدرسه',
+    'The_end_first_term'=>'نهايه الترم الاول ',
+    'The_end_second_term'=>'نهايه الترم الثانى ',
+    'school_logo'=>'شعار المدرسه',
+
+
+    'year'=>'العام الحالى',
+    'School_name'=>'اسم المدرسه',
+    'settings'=>'الاعدادات',
     'attachments'=>'المرفقات',
     'edit_book'=>'تعديل كتاب',
     'list_book'=>'قائمه الكتب',
