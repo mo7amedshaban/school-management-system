@@ -35,7 +35,7 @@ class LibraryRepository implements LibraryRepositoryInterface
             $books->teacher_id = 1;
             $books->save();
                 //use trait
-            $this->uploadFile($request,'file_name');  //file_name here is $request->file_name
+            $this->uploadFile($request,'file_name','library');  //file_name here is $request->file_name
 
             toastr()->success(trans('messages.success'));
             return redirect()->route('library.index');
@@ -68,7 +68,7 @@ class LibraryRepository implements LibraryRepositoryInterface
 
                 $this->deleteFile($book->file_name); // use triat
 
-                $this->uploadFile($request,'file_name'); //use triat
+                $this->uploadFile($request,'file_name','library'); //use triat
 
                 $file_name_new = $request->file('file_name')->getClientOriginalName();
                 $book->file_name = $book->file_name !== $file_name_new ? $file_name_new : $book->file_name;

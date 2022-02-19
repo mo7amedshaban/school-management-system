@@ -1,6 +1,21 @@
 <?php
 
 return [
+    'School_short_name'=>'School short name',
+    'phone'=>'Phone',
+    'E-mail'=>'E-mail',
+    'school_address'=>'school address',
+    'The_end_first_term'=>'The end of the first term',
+    'The_end_second_term'=>'The end of the second term',
+    'school_logo'=>'school logo',
+
+
+
+
+
+    'year'=>'This year',
+    'School_name'=>'School name',
+    'settings'=>'Settings',
     'attachments'=>'Attachments',
     'edit_book'=>'Book Edit',
     'book_name'=>'Book Name',
