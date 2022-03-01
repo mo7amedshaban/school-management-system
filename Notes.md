@@ -150,3 +150,19 @@ can use any thing not only zoom use google meeting and anydisk
 
     }
 ```
+
+```
+ # multi Auth
+ 1--> guard  config/auth      
+        # guard single  and table (s)
+ 2--> provider/RouteServiceProvider
+ 3--> middelware/RedirectIfAuthenticated
+    # if user enter email and password correct what it do routing where
+ 4--> middelware/Authenticate
+    # if user enter email and password wrong what it do routing where
+ 5--> //Auth::routes();
+ 6--> use only login form page not 4 login page
+ 7--> edit Http/Controllers/Auth/LoginController.php
+ 8--> add this in model  # class Student extends Authenticatable
+
+```
