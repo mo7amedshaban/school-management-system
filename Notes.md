@@ -120,8 +120,8 @@ public function update(StoreSections $request)
 
    ```
 
+# integration with zoom      one  meeting
 ```
-#integration with zoom      one  meeting
 https://github.com/MacsiDigital/laravel-zoom
 install package from link and
 open .env  add two variables
@@ -132,6 +132,7 @@ indirect  many meeting
 not use integration but add link and password
 can use any thing not only zoom use google meeting and anydisk
 ```
+
 
 ```
 #
@@ -151,9 +152,9 @@ can use any thing not only zoom use google meeting and anydisk
     }
 ```
 
+ # Multi Auth guards
 ```
- # multi Auth
- 1--> guard  config/auth      
+ *1--> guard  config/auth      
         # guard single  and table (s)
  2--> provider/RouteServiceProvider
  3--> middelware/RedirectIfAuthenticated
@@ -166,3 +167,8 @@ can use any thing not only zoom use google meeting and anydisk
  8--> add this in model  # class Student extends Authenticatable
 
 ```
+# use calender integration livewire
+   * https://www.nicesnippets.com/blog/laravel-livewire-fullcalendar-integration-tutorial
+
+
+ 
