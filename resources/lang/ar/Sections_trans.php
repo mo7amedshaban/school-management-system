@@ -2,7 +2,7 @@
 
 return [
 
-    'title_page' => 'الاقسام',
+    'title_page' => 'الاقسام الدراسيه',
     'List_Grade' => 'List_Grade',
     'add_section' => 'اضافة قسم',
     'edit_Section'=> 'تعديل قسم',

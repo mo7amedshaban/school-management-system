@@ -8,7 +8,7 @@
     <meta name="description" content="Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template" />
     <meta name="author" content="potenzaglobalsolutions.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>برنامج مورا سوفت لادارة المدارس</title>
+    <title>{{trans('main_trans.Main_title')}}</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -36,18 +36,18 @@
 
                     <div style="border-radius: 15px;" class="col-lg-8 col-md-8 bg-white">
                         <div class="login-fancy pb-40 clearfix">
-                            <h3 style="font-family: 'Cairo', sans-serif" class="mb-30">حدد طريقة الدخول</h3>
+                            <h3 style="font-family: 'Cairo', sans-serif" class="mb-40">{{trans('Account.select_enter')}}</h3>
                             <div class="form-inline">
-                                <a class="btn btn-default col-lg-3" title="طالب" href="{{route('login.show','student')}}">
+                                <a class="btn btn-default col-lg-3" title="{{trans('Account.student')}}" href="{{route('login.show','student')}}">
                                     <img alt="user-img" width="100px;" src="{{URL::asset('assets/images/student.png')}}">
                                 </a>
-                                <a class="btn btn-default col-lg-3" title="ولي امر" href="{{route('login.show','parent')}}">
+                                <a class="btn btn-default col-lg-3" title="{{trans('Account.parent')}}" href="{{route('login.show','parent')}}">
                                     <img alt="user-img" width="100px;" src="{{URL::asset('assets/images/parent.png')}}">
                                 </a>
-                                <a class="btn btn-default col-lg-3" title="معلم" href="{{route('login.show','teacher')}}">
+                                <a class="btn btn-default col-lg-3" title="{{trans('Account.teacher')}}" href="{{route('login.show','teacher')}}">
                                     <img alt="user-img" width="100px;" src="{{URL::asset('assets/images/teacher.png')}}">
                                 </a>
-                                <a class="btn btn-default col-lg-3" title="ادمن" href="{{route('login.show','admin')}}">
+                                <a class="btn btn-default col-lg-3" title="{{trans('Account.admin')}}" href="{{route('login.show','admin')}}">
                                     <img alt="user-img" width="100px;" src="{{URL::asset('assets/images/admin.png')}}">
                                 </a>
                             </div>

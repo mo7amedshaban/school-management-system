@@ -12,23 +12,44 @@
         <!-- menu title -->
         <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">{{trans('main_trans.Programname')}} </li>
 
+        <!-- الاقسام-->
+        <li>
+            <a href="{{route('sections')}}"><i class="fas fa-chalkboard"></i><span
+                    class="right-nav-text">{{trans('main_trans.sections')}}</span></a>
+        </li>
+
         <!-- الطلاب-->
         <li>
-            <a href="#"><i class="fas fa-user-graduate"></i><span
-                    class="right-nav-text">الطلاب</span></a>
+            <a href="{{route('student.index')}}"><i class="fas fa-user-graduate"></i><span
+                    class="right-nav-text">{{trans('main_trans.students')}}</span></a>
         </li>
 
 
         <!-- الامتحانات-->
         <li>
             <a href="{{route('settings.index')}}"><i class="fas fa-book-open"></i><span
-                    class="right-nav-text">الامتحانات</span></a>
+                    class="right-nav-text">{{trans('Account.Quizzes')}}</span></a>
+        </li>
+
+        <!-- sections-->
+        <li>
+            <a href="javascript:void(0);" data-toggle="collapse" data-target="#sections-menu">
+                <div class="pull-left"><i class="fas fa-chalkboard"></i><span
+                        class="right-nav-text">{{trans('Account.reports')}}</span></div>
+                <div class="pull-right"><i class="ti-plus"></i></div>
+                <div class="clearfix"></div>
+            </a>
+            <ul id="sections-menu" class="collapse" data-parent="#sidebarnav">
+                <li><a href="#">{{trans('Account.reports_two')}}</a></li>
+                <li><a href="#">{{trans('Account.Exam_Report')}}</a></li>
+            </ul>
+
         </li>
 
         <!-- الملف الشخصي-->
         <li>
             <a href="{{route('settings.index')}}"><i class="fas fa-id-card-alt"></i><span
-                    class="right-nav-text">الملف الشخصي</span></a>
+                    class="right-nav-text">{{trans('Account.profile')}} </span></a>
         </li>
 
     </ul>

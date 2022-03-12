@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Teachers/dashboard/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/sections/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/students/edit_attendance.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/students/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school-management-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school-management-system.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Classroom.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Classroom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Fee_invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Fee_invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/selection.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/selection.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar/teacher-main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar/teacher-main-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/calendar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/calendar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/teacher.php" afterDir="false" />
     </list>
@@ -176,7 +192,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
@@ -232,6 +248,12 @@
       <workItem from="1635346800866" duration="567000" />
       <workItem from="1636552878323" duration="601000" />
       <workItem from="1646546542070" duration="319000" />
+      <workItem from="1646550135769" duration="8509000" />
+      <workItem from="1646808353821" duration="368000" />
+      <workItem from="1646808880710" duration="266000" />
+      <workItem from="1646809176112" duration="587000" />
+      <workItem from="1646809787522" duration="130000" />
+      <workItem from="1646809936367" duration="21848000" />
     </task>
     <servers />
   </component>

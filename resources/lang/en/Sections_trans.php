@@ -2,7 +2,7 @@
 
 return [
 
-    'title_page' => 'sections',
+    'title_page' => 'Sections',
     'List_Grade' => 'List_Grade',
     'add_section' => 'Add Section ',
     'edit_Section'=> 'Edit Section',

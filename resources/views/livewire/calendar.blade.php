@@ -17,7 +17,7 @@
                 var calendar = new Calendar(calendarEl, {
                     events: JSON.parse(data),
                     dateClick(info)  {
-                        var title = prompt('ادخل عنوان الحدث ');
+                        var title = prompt('{{trans('Account.event_title')}} ');
                         var date = new Date(info.dateStr + 'T00:00:00');
                         if(title != null && title != ''){
                             calendar.addEvent({
@@ -27,9 +27,9 @@
                             });
                             var eventAdd = {title: title,start: date};
                         @this.addevent(eventAdd);
-                            alert('تم اضافة الحدث بنجاح');
+                            alert('{{trans('Account.add_event')}}');
                         }else{
-                            alert('من فضلك ادخل عنوان الحدث');
+                            alert('{{trans('Account.pls_event_title')}}');
                         }
                     },
                     editable: true,
