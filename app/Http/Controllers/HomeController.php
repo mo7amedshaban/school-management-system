@@ -17,4 +17,9 @@ class HomeController extends Controller
     {
         return view('dashboard');
     }
+
+    public function test()
+    {
+        return view('test_pg');
+    }
 }

@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4038c31-d0a4-4973-9a14-9ac7ea586f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Teachers/dashboard/StudentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/sections/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/students/edit_attendance.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/students/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/school-management-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school-management-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/banner-wap.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Classroom.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Classroom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Fee_invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Fee_invoice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Sections_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Sections_trans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/selection.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/selection.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar/teacher-main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar/teacher-main-sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/calendar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/calendar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/Teachers/dashboard/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/teacher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test_pg.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test_pg.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,15 +185,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/lang/en" />
       <recent name="$PROJECT_DIR$/resources/views/pages/Grades" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public/assets/login-form/css" />
       <recent name="$PROJECT_DIR$/public/assets/css" />
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/app/Models" />
-      <recent name="$PROJECT_DIR$/resources/views/pages/Students/promotion" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,7 +241,11 @@
       <workItem from="1646808880710" duration="266000" />
       <workItem from="1646809176112" duration="587000" />
       <workItem from="1646809787522" duration="130000" />
-      <workItem from="1646809936367" duration="21848000" />
+      <workItem from="1646809936367" duration="38040000" />
+      <workItem from="1647851190850" duration="16618000" />
+      <workItem from="1648390896264" duration="337000" />
+      <workItem from="1648394747866" duration="11473000" />
+      <workItem from="1649885704071" duration="82000" />
     </task>
     <servers />
   </component>

@@ -5,6 +5,10 @@ use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 
+
+Route::get('/test','HomeController@test')->name('test');
+
+
 //Auth::routes();
 # this instead of    //Auth::routes();   for localization
 
@@ -154,5 +158,6 @@ Route::group(
 
 
 });
+
 
 
