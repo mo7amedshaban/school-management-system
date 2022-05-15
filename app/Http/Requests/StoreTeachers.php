@@ -13,7 +13,7 @@ class StoreTeachers extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,7 @@ class StoreTeachers extends FormRequest
     public function rules()
     {
         return [
-            'Email' => 'required|unique:teachers,Email,'.$this->id,
+            'Email' => 'required|unique:teachers,email,'.$this->id,
             'Password' => 'required',
             'Name_ar' => 'required',
             'Name_en' => 'required',
