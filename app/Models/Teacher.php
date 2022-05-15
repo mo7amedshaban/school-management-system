@@ -11,7 +11,7 @@ class Teacher extends Authenticatable
 {
     use HasTranslations;
     public $translatable = ['Name'];
-    protected $guarded=[];
+    protected $fillable=['email','password','Name','Specialization_id','Gender_id','Joining_Date','Address'];
 
     // علاقة بين المعلمين والتخصصات لجلب اسم التخصص
     public function specializations()
