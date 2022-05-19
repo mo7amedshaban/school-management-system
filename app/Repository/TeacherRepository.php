@@ -30,13 +30,13 @@ class TeacherRepository implements TeacherRepositoryInterface
 
         try {
             $Teachers = new Teacher();
-            $Teachers->email = $request->Email;
-            $Teachers->password = Hash::make($request->Password);
-            $Teachers->Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
-            $Teachers->Specialization_id = $request->Specialization_id;
-            $Teachers->Gender_id = $request->Gender_id;
-            $Teachers->Joining_Date = $request->Joining_Date;
-            $Teachers->Address = $request->Address;
+            $Teachers->E_mail = $request->Email;
+            $Teachers->P_assword = Hash::make($request->Password);
+            $Teachers->T_Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
+            $Teachers->S_id = $request->Specialization_id;
+            $Teachers->G_id = $request->Gender_id;
+            $Teachers->Enroll_Date = $request->Joining_Date;
+            $Teachers->T_Address = $request->Address;
             $Teachers->save();
             toastr()->success(trans('messages.success'));
             return redirect()->route('Teachers.create');
@@ -57,13 +57,13 @@ class TeacherRepository implements TeacherRepositoryInterface
     {
         try {
             $Teachers = Teacher::findOrFail($request->id);
-            $Teachers->email = $request->Email;
-            $Teachers->password = Hash::make($request->Password);
-            $Teachers->Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
-            $Teachers->Specialization_id = $request->Specialization_id;
-            $Teachers->Gender_id = $request->Gender_id;
-            $Teachers->Joining_Date = $request->Joining_Date;
-            $Teachers->Address = $request->Address;
+            $Teachers->E_mail = $request->Email;
+            $Teachers->P_assword = Hash::make($request->Password);
+            $Teachers->T_Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
+            $Teachers->S_id = $request->Specialization_id;
+            $Teachers->G_id = $request->Gender_id;
+            $Teachers->Enroll_Date = $request->Joining_Date;
+            $Teachers->T_Address = $request->Address;
             $Teachers->save();
             toastr()->success(trans('messages.Update'));
             return redirect()->route('Teachers.index');
