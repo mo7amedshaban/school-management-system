@@ -28,21 +28,22 @@ class TeacherRepository implements TeacherRepositoryInterface
     public function StoreTeachers($request)
     {
 
-        try {
+        // try {
             $Teachers = new Teacher();
-            $Teachers->E_mail = $request->Email;
-            $Teachers->P_assword = Hash::make($request->Password);
-            $Teachers->T_Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
-            $Teachers->S_id = $request->Specialization_id;
-            $Teachers->G_id = $request->Gender_id;
-            $Teachers->Enroll_Date = $request->Joining_Date;
-            $Teachers->T_Address = $request->Address;
-            $Teachers->save();
-            toastr()->success(trans('messages.success'));
-            return redirect()->route('Teachers.create');
-        } catch (Exception $e) {
-            return redirect()->back()->with(['error' => $e->getMessage()]);
-        }
+            $Teachers->email = $request->email;
+            $Teachers->password = Hash::make($request->password);
+            $Teachers->Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
+            $Teachers->Specialization_id = $request->Specialization_id;
+            $Teachers->Gender_id = $request->Gender_id;
+            $Teachers->Joining_Date = $request->Joining_Date;
+            $Teachers->Address = $request->Address;
+            // $Teachers->save();
+            return $Teachers;
+            // toastr()->success(trans('messages.success'));
+            // return redirect()->route('Teachers.create');
+        // } catch (Exception $e) {
+        //     return redirect()->back()->with(['error' => $e->getMessage()]);
+        // }
 
     }
 
@@ -57,13 +58,13 @@ class TeacherRepository implements TeacherRepositoryInterface
     {
         try {
             $Teachers = Teacher::findOrFail($request->id);
-            $Teachers->E_mail = $request->Email;
-            $Teachers->P_assword = Hash::make($request->Password);
-            $Teachers->T_Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
-            $Teachers->S_id = $request->Specialization_id;
-            $Teachers->G_id = $request->Gender_id;
-            $Teachers->Enroll_Date = $request->Joining_Date;
-            $Teachers->T_Address = $request->Address;
+            $Teachers->email = $request->email;
+            $Teachers->password = Hash::make($request->password);
+            $Teachers->Name = ['en' => $request->Name_en, 'ar' => $request->Name_ar];
+            $Teachers->Specialization_id = $request->Specialization_id;
+            $Teachers->Gender_id = $request->Gender_id;
+            $Teachers->Joining_Date = $request->Joining_Date;
+            $Teachers->Address = $request->Address;
             $Teachers->save();
             toastr()->success(trans('messages.Update'));
             return redirect()->route('Teachers.index');

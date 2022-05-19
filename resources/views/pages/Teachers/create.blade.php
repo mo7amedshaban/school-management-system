@@ -37,15 +37,15 @@
                                 <div class="form-row">
                                     <div class="col">
                                         <label for="title">{{trans('Teacher_trans.Email')}}</label>
-                                        <input type="email" name="Email" class="form-control">
-                                        @error('Email')
+                                        <input type="email" name="email" class="form-control">
+                                        @error('email')
                                         <div class="alert alert-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="col">
                                         <label for="title">{{trans('Teacher_trans.Password')}}</label>
-                                        <input type="password" name="Password" class="form-control">
-                                        @error('Password')
+                                        <input type="password" name="password" class="form-control">
+                                        @error('password')
                                         <div class="alert alert-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
