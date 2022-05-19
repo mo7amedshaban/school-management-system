@@ -12,8 +12,6 @@ class Teacher extends Authenticatable
     use HasTranslations;
     public $translatable = ['Name'];
     protected $guarded=[];
-    protected $table = 'teachers';
-    protected $primaryKey = 'competence_profile_id';
 
     // علاقة بين المعلمين والتخصصات لجلب اسم التخصص
     public function specializations()
