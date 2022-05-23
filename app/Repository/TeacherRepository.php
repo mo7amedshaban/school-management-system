@@ -28,7 +28,7 @@ class TeacherRepository implements TeacherRepositoryInterface
     public function StoreTeachers($request)
     {
 
-        // try {
+        try {
             $Teachers = new Teacher();
             $Teachers->email = $request->email;
             $Teachers->password = Hash::make($request->password);
@@ -37,13 +37,13 @@ class TeacherRepository implements TeacherRepositoryInterface
             $Teachers->Gender_id = $request->Gender_id;
             $Teachers->Joining_Date = $request->Joining_Date;
             $Teachers->Address = $request->Address;
-            // $Teachers->save();
+            $Teachers->save();
             return $Teachers;
-            // toastr()->success(trans('messages.success'));
-            // return redirect()->route('Teachers.create');
-        // } catch (Exception $e) {
-        //     return redirect()->back()->with(['error' => $e->getMessage()]);
-        // }
+            toastr()->success(trans('messages.success'));
+            return redirect()->route('Teachers.create');
+        } catch (Exception $e) {
+            return redirect()->back()->with(['error' => $e->getMessage()]);
+        }
 
     }
 
