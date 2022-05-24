@@ -25,7 +25,6 @@ class StoreStudentsRequest extends FormRequest
         }
         $rules = [
             "email" => $email_rule,
-            "Password" => 'min:8',
             "gender_id" => "required",
             "nationalitie_id" => "required",
             "blood_id" => "required",
@@ -37,6 +36,7 @@ class StoreStudentsRequest extends FormRequest
             "name_ar" => "required",
             "parent_id" => "required",
             "academic_year" => "required",
+            "password"=>'required'
         ];
 
         return $rules;
@@ -45,16 +45,24 @@ class StoreStudentsRequest extends FormRequest
     public function messages()
     {
         return [
+
+
             'email.required' => trans('validation.required'),
             'email.unique' => trans('validation.unique'),
-            'Password.min' => trans('validation.min.numeric'),
+            'password.required' => trans('validation.required'),
 
-            'Name_ar.required' => trans('validation.required'),
-            'Name_en.required' => trans('validation.required'),
+            'name_ar.required' => trans('validation.required'),
+            'name_en.required' => trans('validation.required'),
+            'nationalitie_id.required' => trans('validation.required'),
+            'gender_id.required' => trans('validation.required'),
+            'blood_id.required' => trans('validation.required'),
+            'section_id.required' => trans('validation.required'),
+            'Grade_id.required' => trans('validation.required'),
+            'Classroom_id.required' => trans('validation.required'),
             'Specialization_id.required' => trans('validation.required'),
-            'Gender_id.required' => trans('validation.required'),
-            'Joining_Date.required' => trans('validation.required'),
-            'Address.required' => trans('validation.required'),
+            'parent_id.required' => trans('validation.required'),
+            'Date_Birth.required' => trans('validation.required'),
+            'academic_year.required' => trans('validation.required'),
         ];
     }
 

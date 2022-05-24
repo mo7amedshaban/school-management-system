@@ -49,7 +49,7 @@ class StudentController extends Controller
         try {
             $students = new Student();
             $students->email = $request->email;
-            $students->Password = Hash::make($request->Password);
+            $students->password = Hash::make($request->Password);
 
             $students->gender_id = $request->gender_id;
             $students->nationalitie_id = $request->nationalitie_id;
