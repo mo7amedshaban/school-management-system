@@ -38,7 +38,7 @@ class TeacherRepository implements TeacherRepositoryInterface
             $Teachers->Joining_Date = $request->Joining_Date;
             $Teachers->Address = $request->Address;
             $Teachers->save();
-            return $Teachers;
+            // return $Teachers;
             toastr()->success(trans('messages.success'));
             return redirect()->route('Teachers.create');
         } catch (Exception $e) {

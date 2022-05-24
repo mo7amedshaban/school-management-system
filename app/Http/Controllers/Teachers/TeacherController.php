@@ -33,7 +33,7 @@ class TeacherController extends Controller
     }
 
 
-    public function store(Request $request)  //StoreTeachers
+    public function store(StoreTeachers $request)
     {
         return $this->Teacher->StoreTeachers($request);
     }
