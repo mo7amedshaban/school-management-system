@@ -16,6 +16,9 @@ class StoreTeachers extends FormRequest
         return true;
     }
 
+
+     // this validation for heroku because heroku not define ".this->id"
+
     public function rules()
     {
         $email_rule = 'required|email|unique:teachers,email';
@@ -27,10 +30,13 @@ class StoreTeachers extends FormRequest
         }
         $rules = [
             "email" => $email_rule,
-            "name" => "required",
-            "speicalize_id" => "required",
-            "address" => "required",
-            "gender" => "required",
+            "password" => "required",
+            "Name_ar" => "required",
+            "Name_en" => "required",
+            "Specialization_id" => "required",
+            "Gender_id"=>"required",
+            "Address" => "required",
+            "Joining_Date" => "required",
         ];
 
         return $rules;
@@ -41,9 +47,9 @@ class StoreTeachers extends FormRequest
     public function messages()
     {
         return [
-            'Email.required' => trans('validation.required'),
-            'Email.unique' => trans('validation.unique'),
-            'Password.required' => trans('validation.required'),
+            'email.required' => trans('validation.required'),
+            'email.unique' => trans('validation.unique'),
+            'password.required' => trans('validation.required'),
             'Name_ar.required' => trans('validation.required'),
             'Name_en.required' => trans('validation.required'),
             'Specialization_id.required' => trans('validation.required'),

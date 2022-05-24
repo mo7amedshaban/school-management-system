@@ -6,11 +6,7 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StoreStudentsRequest extends FormRequest
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     *
-     * @return bool
-     */
+
     public function authorize()
     {
         return true;
@@ -29,13 +25,37 @@ class StoreStudentsRequest extends FormRequest
         }
         $rules = [
             "email" => $email_rule,
-            "name" => "required",
-            "speicalize_id" => "required",
-            "address" => "required",
-            "gender" => "required",
+            "Password" => 'min:8',
+            "gender_id" => "required",
+            "nationalitie_id" => "required",
+            "blood_id" => "required",
+            "Date_Birth" => "required",
+            "Grade_id" => "required",
+            "Classroom_id" => "required",
+            "section_id" => "required",
+            "name_en" => "required",
+            "name_ar" => "required",
+            "parent_id" => "required",
+            "academic_year" => "required",
         ];
 
         return $rules;
+    }
+
+    public function messages()
+    {
+        return [
+            'email.required' => trans('validation.required'),
+            'email.unique' => trans('validation.unique'),
+            'Password.min' => trans('validation.min.numeric'),
+
+            'Name_ar.required' => trans('validation.required'),
+            'Name_en.required' => trans('validation.required'),
+            'Specialization_id.required' => trans('validation.required'),
+            'Gender_id.required' => trans('validation.required'),
+            'Joining_Date.required' => trans('validation.required'),
+            'Address.required' => trans('validation.required'),
+        ];
     }
 
 
