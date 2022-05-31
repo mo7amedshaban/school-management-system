@@ -18,6 +18,7 @@
                     class="right-nav-text">{{trans('main_trans.sections')}}</span></a>
         </li>
 
+
         <!-- الطلاب-->
         <li>
             <a href="{{route('student.index')}}"><i class="fas fa-user-graduate"></i><span

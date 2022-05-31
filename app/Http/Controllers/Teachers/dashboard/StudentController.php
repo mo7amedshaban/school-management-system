@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers\Teachers\dashboard;
-
 use App\Http\Controllers\Controller;
 use App\Models\Attendance;
 use App\Models\Section;
@@ -33,7 +32,6 @@ class StudentController extends Controller
         try {
 
             $attenddate = date('Y-m-d');
-            $classid = $request->section_id;
             foreach ($request->attendences as $studentid => $attendence) {
 
                 if ($attendence == 'presence') {
@@ -42,7 +40,7 @@ class StudentController extends Controller
                     $attendence_status = false;
                 }
 
-                Attendance::create([
+                Attendance::updateorCreate(['student_id'=> $studentid],[
                     'student_id' => $studentid,
                     'grade_id' => $request->grade_id,
                     'classroom_id' => $request->classroom_id,

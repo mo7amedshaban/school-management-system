@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="float-right text-right">
                                     <p class="card-text text-dark">{{trans('Account.student_count')}}</p>
-                                    <h4>{{$count_students}}</h4>
+                                    <h4>{{\App\Models\Student::count()}}</h4>
                                 </div>
                             </div>
                             <p class="text-muted pt-3 mb-0 mt-2 border-top">
